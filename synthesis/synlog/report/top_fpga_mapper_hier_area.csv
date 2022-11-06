@@ -1,0 +1,327 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. top, 6927, 10963, 2299, 0, 0, 32, 63, 12, 57
+.	. APB3, 0, 24, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreAPB3_Z1, 0, 24, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREAPB3_MUXPTOB3, 0, 17, 0, 0, 0, 0, 0, 0, 0
+.	. Axi4Interconnect, 1533, 1305, 33, 0, 0, 0, 41, 1, 0
+.	.	. COREAXI4INTERCONNECT_Z3, 1533, 1305, 33, 0, 0, 0, 41, 1, 0
+.	.	.	. caxi4interconnect_MasterConvertor_Z8, 853, 779, 33, 0, 0, 0, 17, 0, 0
+.	.	.	.	. caxi4interconnect_MstrDataWidthConv_Z4, 429, 554, 33, 0, 0, 0, 17, 0, 0
+.	.	.	.	.	. caxi4interconnect_UpConverter_Z6, 429, 554, 33, 0, 0, 0, 17, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_AChannel_32s_1s_1s_32s_64s_30s_1s_0_0_1_0, 39, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_AChannel_32s_1s_1s_32s_64s_30s_1s_0_0_1_1, 45, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_BChannel_1s_1s_4s_0_1s, 12, 23, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_DWC_brespCtrl_1s_1s, 2, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_4s_2s_2s_3s_0s_4s_2s_0s_3s, 10, 19, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_4s_3s_0s_2s_4s_0s_1_0, 10, 19, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_RChannel_1s_1s_16s_4s_64s_32s_0_1s, 120, 208, 16, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_RChan_Ctrl_64s_32s_1s, 27, 88, 16, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl_64s_32s_1s_1s, 34, 24, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_Hold_Reg_Ctrl_2_1, 1, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_4s_26s_26s_3s_1s_4s_2s_1s_3s, 10, 23, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_4s_3s_1s_2s_4s_0s_1, 10, 20, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_4s_2s_26s_0s, 0, 3, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_downsizing_16s_64s_32s_3s_15s_1s_16s_4s_1s_15s, 49, 72, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_16s_15s_1s_4s_16s_0s, 16, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_16s_4s_67s_0s, 0, 0, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_WChannel_Z5, 139, 295, 17, 0, 0, 0, 9, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_WChan_Hold_Reg_32s_1s_64s_8s, 25, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_Hold_Reg_Ctrl_0, 1, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl_3s_2s_0_1, 30, 44, 17, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl_32s_1s_64s_1s_4s_2s_8s_3s, 47, 76, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_4s_25s_25s_3s_0s_4s_2s_0s_3s, 10, 21, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_4s_3s_0s_2s_4s_0s_1, 10, 20, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_4s_2s_25s_0s, 0, 1, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_4s_8s_8s_3s_1s_4s_2s_1s_3s, 10, 20, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_4s_3s_1s_2s_4s_0s_0, 10, 20, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_4s_2s_8s_0s, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_upsizing_16s_36s_72s_2s_15s_11s_16s_4s_11s_15s, 17, 118, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_16s_15s_11s_4s_16s_0s, 17, 44, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_16s_4s_36s_0s, 0, 0, 0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_16s_4s_36s_0s_0, 0, 0, 0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_preCalcAChannel_64s_32s_1s_1s, 39, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Hold_Reg_Ctrl, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_DWC_UpConv_preCalcAChannel_64s_32s_1s_1s_0, 35, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Hold_Reg_Ctrl_1, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_64s_0s_1s, 424, 225, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_4s_0_1_3_2, 2, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_64s_0_1_3_0, 68, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_64s_0_1_3_2, 72, 39, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_69s_0_1_3_2, 134, 70, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_75s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. caxi4interconnect_ResetSycnc_1, 2, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. caxi4interconnect_SlaveConvertor_Z12, 678, 526, 0, 0, 0, 0, 24, 0, 0
+.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_64s_0s_1s, 424, 225, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_5s_0_1_3_2, 2, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_65s_0_1_3_0, 68, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_65s_0_1_3_2, 72, 39, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_70s_0_1_3_2, 134, 70, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_76s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. caxi4interconnect_ResetSycnc_0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. caxi4interconnect_SlvClockDomainCrossing_Z11, 220, 219, 0, 0, 0, 0, 23, 0, 0
+.	.	.	.	.	. caxi4interconnect_CDC_FIFO_8s_5s_0s_3s, 44, 44, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_3_4, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_20, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_7, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_23, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_3_4, 6, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_7, 6, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_3s_3s_3s_2, 6, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_rdCtrl_3s_1_0, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_wrCtrl_3s_1_0, 1, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_CDC_FIFO_8s_65s_0s_3s_1, 44, 44, 0, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_3, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_3, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s, 6, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_3, 6, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_3s_3s_3s_1, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_rdCtrl_3s, 1, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_wrCtrl_3s, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_8s_3s_65s_0s, 0, 0, 0, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	. caxi4interconnect_CDC_FIFO_8s_65s_0s_3s_1_0, 44, 44, 0, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_3_2, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_13, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_5, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_10, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_3_2, 6, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_5, 6, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_3s_3s_3s_1_3, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_rdCtrl_3s_2, 1, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_wrCtrl_3s_2, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_8s_3s_65s_0s_0, 0, 0, 0, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	. caxi4interconnect_CDC_FIFO_8s_70s_0s_3s, 44, 43, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_3_3, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_15, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_6, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_18, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_3_3, 6, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_6, 6, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_3s_3s_3s, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_rdCtrl_3s_1, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_wrCtrl_3s_1, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_8s_3s_70s_0s, 0, 0, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	. caxi4interconnect_CDC_FIFO_8s_74s_0s_3s, 44, 44, 0, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_3_1, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_8, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_1s_0s_3s_4, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_Bin2Gray_3s_5, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_3_1, 6, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_2s_1s_3s_4, 6, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_grayCodeCounter_3s_3s_3s_1_1, 6, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_rdCtrl_3s_0, 1, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_CDC_wrCtrl_3s_0, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_8s_3s_74s_0s, 0, 0, 0, 0, 0, 0, 7, 0, 0
+.	.	.	.	. caxi4interconnect_SlvProtocolConverter_Z10, 32, 82, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_2s_4s_0_0, 16, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_FIFO_16s_2s_2s_15s_0s_16s_4s_0s_15s_1_0, 16, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_16s_15s_0s_4s_16s_0s_1_0, 16, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_2s_4s_0_1, 16, 42, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_FIFO_16s_2s_2s_15s_0s_16s_4s_0s_15s_1, 16, 40, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_16s_15s_0s_4s_16s_0s_1, 16, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_16s_4s_2s_0s, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	. CCC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. CCC_C0_CCC_C0_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	. COREJTAGDEBUG_0, 17, 107, 0, 0, 0, 0, 0, 2, 0
+.	.	. COREJTAGDEBUG_Z14, 17, 107, 0, 0, 0, 0, 0, 2, 0
+.	.	.	. COREJTAGDEBUG_UJ_JTAG_26s_0s_34s_85_0_0, 17, 104, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. corejtagdebug_bufd_34s, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. corejtagdebug_bufd_34s_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. corejtagdebug_bufd_34s_2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. CoreGPIO_0, 4, 3, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreGPIO_0_CoreGPIO_0_0_CoreGPIO_Z13, 4, 3, 0, 0, 0, 0, 0, 0, 0
+.	. DDR3_0, 2221, 3081, 891, 0, 0, 0, 14, 7, 43
+.	.	. DDR3_0_CCC_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 3, 0
+.	.	. DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. DDR3_0_DDRPHY_BLK, 2221, 3081, 891, 0, 0, 0, 14, 4, 43
+.	.	.	. COREDDR_TIP_Z74, 2221, 3081, 891, 0, 0, 0, 14, 1, 0
+.	.	.	.	. COREDDR_TIP_INT_Z73, 2221, 3081, 891, 0, 0, 0, 14, 1, 0
+.	.	.	.	.	. LANE_ALIGNMENT_2s_2s_3s_7s, 146, 18, 0, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	. FIFO_BLK_3s_2s, 6, 15, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	. ram_simple_dp_3s_64s_2s_2s, 0, 0, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	. FIFO_BLK_3s_2s_0, 6, 0, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	. ram_simple_dp_3s_64s_2s_2s_0, 0, 0, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	. LANE_CTRL_2s_1s, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. TIP_CTRL_BLK_Z72, 1963, 2978, 868, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. LEVELLING_2s_8_8_8_8_8_8_8_8_8, 1131, 1736, 633, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. DELAY_CTRL_8s_1s, 10, 7, 8, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. DELAY_CTRL_8s_1s_1, 10, 7, 8, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. IOG_IF_2s_18s_0_1, 46, 41, 9, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. APB_IOG_CTRL_SM, 17, 12, 9, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. RDLVL_2s_8_8_8_8_8_8_8_8_8, 947, 1558, 580, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. RDLVL_SMS_2s_8_8_8_8_8_8_8_8_8, 947, 1558, 580, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. RDLVL_TRAIN, 474, 779, 290, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dq_align_dqs_optimization_1, 213, 365, 235, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. gate_training_1, 261, 413, 55, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. RDLVL_TRAIN_1, 473, 779, 290, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dq_align_dqs_optimization_1_0, 212, 366, 235, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. gate_training_1_0, 261, 413, 55, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. TRN_COMPLETE_Z70, 9, 15, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. VREF_TR_2s, 5, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. WRLVL_2s, 104, 89, 28, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. WRLVL_BOT, 52, 46, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. WRLVL_BOT_1, 52, 43, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. PHY_SIG_MOD_2s_2s, 274, 642, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. TRN_CLK_2s_1s_0s_1s_2s_3s_4s, 307, 434, 194, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. flag_generator_1s, 6, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. data_transition_detector_1s_4, 3, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. noisy_data_detector_1s, 3, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. flag_generator_1s_4, 6, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. data_transition_detector_1s_4_0, 3, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. noisy_data_detector_1s_0, 3, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. flag_generator_1s_5, 6, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. data_transition_detector_1s_4_1, 3, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. noisy_data_detector_1s_1, 3, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. flag_generator_1s_6, 6, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. data_transition_detector_1s_4_2, 3, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. noisy_data_detector_1s_2, 3, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. flag_generator_1s_7, 6, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. data_transition_detector_1s_4_3, 3, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. noisy_data_detector_1s_3, 3, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. trn_bclksclk, 50, 50, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. trn_cmd_addr, 99, 112, 61, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. trn_dqsw, 61, 121, 57, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. trn_dqsw_1, 61, 131, 57, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. ddr4_vref, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. write_callibrator_Z71, 78, 147, 41, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. ddr_init_iterator, 29, 18, 23, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_A_11_0_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 12
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_A_12_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_A_13_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_A_14_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_A_15_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_BA_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 3
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_BCLK_TRAINING_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_CAS_N_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_CKE_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_CS_N_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_ODT_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_RAS_N_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_REF_CLK_TRAINING_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_RESET_N_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_IOD_WE_N_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	.	. DDR3_0_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	.	. DDR3_0_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL_PAUSE_SYNC_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_0_IOD_DM_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_0_IOD_DQSW_TRAINING_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_0_IOD_DQS_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_0_IOD_DQ_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 8
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_0_IOD_READ_TRAINING_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_1_IOD_DM_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_1_IOD_DQSW_TRAINING_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_1_IOD_DQS_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_1_IOD_DQ_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 8
+.	.	.	. DDR3_0_DDRPHY_BLK_LANE_1_IOD_READ_TRAINING_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. DDR3_0_DLL_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. INIT_Monitor, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. INIT_Monitor_INIT_Monitor_0_PF_INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. MIV_RV32_C1, 2411, 5899, 658, 0, 0, 32, 6, 0, 0
+.	.	. MIV_RV32_C1_MIV_RV32_C1_0_MIV_RV32_Z82, 2411, 5899, 658, 0, 0, 32, 6, 0, 0
+.	.	.	. miv_rv32_opsrv_Z80, 2411, 5899, 658, 0, 0, 32, 6, 0, 0
+.	.	.	.	. miv_rv32_core_Z78, 826, 3220, 358, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	. miv_rv32_expipe_Z77, 584, 2519, 324, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	. miv_rv32_bcu, 0, 48, 92, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_csr_decode_1s_0s, 0, 24, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_csr_privarch_Z76, 260, 702, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_decode_0s_1, 0, 450, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_11, 1, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_2, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_4, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_5, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_6, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_7, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_8, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_0s_0s_9, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_15, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_15_0, 1, 3, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_5, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_7, 1, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_9, 1, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_9_0, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_9_1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_9_2, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_9_3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_9_4, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_30s_1s_0s, 30, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_31s_0s_0s, 31, 32, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_32s_0s_0s_0, 32, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_32s_0s_0s_1, 32, 33, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_32s_1s_0_0, 31, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_32s_1s_0_1, 32, 3, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_32s_1s_2147483648, 32, 66, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_3s_1s_0s, 3, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_5s_1s_0, 5, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_priv_irq_8_0_0, 2, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. miv_rv32_irq_reg_0s, 1, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. miv_rv32_irq_reg_0s_0, 1, 3, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_exu_1s_1s_1_0s_0s_0_0_0, 33, 851, 200, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_gpr_ram_0s_0, 12, 77, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_gpr_ram_array_32s_5s_32s, 0, 6, 0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	. miv_rv32_idecode_1_0s_0s, 0, 755, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_fetch_unit_32s_2147483648_3s_2s_3s_2s_2s_0s_1s, 220, 538, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_ifu_iab_32s_2s_3s_2s, 215, 268, 31, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_lsu_32s_2s_1s_2s_2s, 22, 163, 2, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_rv32_mtime_irq_1s_1s_100s_1s_33603580_33570820, 160, 281, 160, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_rv32_opsrv_apb_mstr_32s_1s_1_0_1_2_3_4_5, 114, 171, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_rr_pri_arb_2s_1s_1s_0, 4, 19, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_rv32_opsrv_axi_mstr_32s_2s_1s_2s_1s_2s_1s, 519, 450, 84, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_axi_rchan_32s_2s_2s_1s_40s_39s_0_1_2_3, 236, 173, 42, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_axi_egress_slip_buffer_40s_0, 99, 80, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_buffer_40s_2s_1s_1s_0, 67, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_axi_ingress_buffer_39s_2s_1s_1s, 73, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_buffer_30s_2s_1s_1s, 63, 9, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_rr_pri_arb_2s_1s_1s_1, 1, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_axi_wchan_32s_1s_2s_1s_40s_41s_0_1_2_3, 283, 267, 28, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_axi_egress_slip_buffer_40s_1, 102, 78, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_buffer_40s_2s_1s_1s_1, 69, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_axi_egress_slip_buffer_41s, 117, 93, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. miv_rv32_buffer_41s_2s_1s_1s, 79, 33, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_buffer_29s_2s_1s_1s, 61, 9, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_rr_pri_arb_1s_1s_1s, 2, 44, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_strb_to_addr_4s_2_0, 0, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_strb_to_addr_4s_2_1, 0, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_rv32_opsrv_debug_1, 671, 1117, 56, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_opsrv_debug_du, 378, 785, 56, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_opsrv_debug_sba, 166, 716, 56, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_opsrv_debug_fifo_1s_34s_1s_0s_2s, 84, 50, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_opsrv_debug_fifo_1s_41s_1s_0s_2s, 100, 99, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_opsrv_dtm_jtag_1, 109, 183, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_rv32_opsrv_interconnect_Z79, 51, 497, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_buffer_11s_2s_1s_1s, 21, 57, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_buffer_6s_2s_1s_1s, 13, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_rv32_opsrv_regs_12s_0s_1s_1s_4s_2s_1s, 17, 38, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_buffer_4s_2s_1s_1s, 13, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_0, 1, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. miv_rv32_csr_gpr_state_reg_1s_1s_0s_1, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_rv32_opsrv_tcm_Z81, 70, 163, 0, 0, 0, 32, 0, 0, 0
+.	.	.	.	.	. miv_rv32_ram_singleport_addreg_16384_28s_32s_1s_4s_4s, 0, 11, 0, 0, 0, 32, 0, 0, 0
+.	.	.	.	.	. miv_rv32_rr_pri_arb_3s_1s_1s, 3, 10, 0, 0, 0, 0, 0, 0, 0
+.	. SPI_Controller, 214, 306, 26, 0, 0, 0, 2, 0, 0
+.	.	. CORESPI_Z84, 214, 306, 26, 0, 0, 0, 2, 0, 0
+.	.	.	. spi_32s_8s_32s_16s_0_0_1_0s, 214, 306, 26, 0, 0, 0, 2, 0, 0
+.	.	.	.	. spi_chanctrl_Z83, 135, 146, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. spi_clockmux, 0, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. spi_control_8s, 0, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. spi_fifo_8s_32s_5_0, 18, 29, 6, 0, 0, 0, 1, 0, 0
+.	.	.	.	. spi_fifo_8s_32s_5_1, 18, 36, 6, 0, 0, 0, 1, 0, 0
+.	.	.	.	. spi_rf_32s_16s_0, 43, 76, 0, 0, 0, 0, 0, 0, 0
+.	. UART_apb, 114, 134, 19, 0, 0, 0, 0, 0, 0
+.	.	. UART_apb_UART_apb_0_CoreUARTapb_Z85, 114, 134, 19, 0, 0, 0, 0, 0, 0
+.	.	.	. UART_apb_UART_apb_0_COREUART_0s_0s_0s_26s_0s_0s, 90, 107, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	. UART_apb_UART_apb_0_Clock_gen_0s_0s, 19, 10, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	. UART_apb_UART_apb_0_Rx_async_0s_0s_0s_1s_2s_3s, 41, 69, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. UART_apb_UART_apb_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s, 21, 22, 5, 0, 0, 0, 0, 0, 0
+.	. reset_syn_0, 17, 2, 0, 0, 0, 0, 0, 1, 0
+.	.	. reset_syn_0_reset_syn_0_0_CORERESET_PF, 17, 2, 0, 0, 0, 0, 0, 1, 0
+.	. reset_syn_1, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. reset_syn_1_reset_syn_1_0_CORERESET_PF, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	. scheduler_8s_4s_64s_3s, 380, 101, 672, 0, 0, 0, 0, 0, 0

@@ -1,0 +1,24 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Tue Oct 11 16:00:40 2022
+Project   :  C:\Libero_Projects\PF_Mi_V_Tut
+Component :  MIV_RV32_C1
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_opsrv_cfg_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_opsrv_debug_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_opsrv_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_mnemonics_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_core_cfg_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_bist_seq_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/miv_rv32_bist_shared_pkg.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/core_merged/miv_rv32_core_merged.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/opsrv_merged/miv_rv32_opsrv_merged.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/opsrv/miv_rv32_ram_singleport_lp.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Microsemi/MiV/MIV_RV32/3.0.100/opsrv/miv_rv32_ram_singleport_lp_ecc.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/MIV_RV32_C1/MIV_RV32_C1_0/miv_rv32.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/MIV_RV32_C1/MIV_RV32_C1.v
+

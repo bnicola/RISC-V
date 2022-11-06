@@ -1,0 +1,22 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Sun Oct  9 21:15:33 2022
+Project   :  C:\Libero_Projects\PF_Mi_V_Tut
+Component :  COREJTAGDEBUG_0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug_ujtag_wrapper.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug_uj_jtag.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/core/corejtagdebug_bufd.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/COREJTAGDEBUG_0/COREJTAGDEBUG_0.v
+
+Stimulus files for all Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/mti/corejtagdebug_wave.do
+
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/rtl/vlog/test/corejtagdebug_host_emulator.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/rtl/vlog/test/corejtagdebug_jtag_tap.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/Actel/DirectCore/COREJTAGDEBUG/4.0.100/rtl/vlog/test/corejtagdebug_testbench.v
+

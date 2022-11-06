@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Libero_Projects\PF_Mi_V_Tut\synthesis\miv_rv32_expipe_Z77\miv_rv32_expipe_Z77.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CCC_C0_0/CCC_C0_0/pll_inst_0/OUT0</data>
+<data>83.3 MHz</data>
+<data>59.8 MHz</data>
+<data>-4.733</data>
+</row>
+<row>
+<data>DDR3_0_0/CCC_0/pll_inst_0/OUT0</data>
+<data>666.7 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>DDR3_0_0/CCC_0/pll_inst_0/OUT1</data>
+<data>166.7 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>DDR3_0_0/CCC_0/pll_inst_0/OUT2</data>
+<data>666.7 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>DDR3_0_0/CCC_0/pll_inst_0/OUT3</data>
+<data>666.7 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>REF_CLK_0</data>
+<data>50.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

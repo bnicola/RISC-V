@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Sun Oct  9 21:12:49 2022
+Project   :  C:\Libero_Projects\PF_Mi_V_Tut
+Component :  INIT_Monitor
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/INIT_Monitor/INIT_Monitor_0/INIT_Monitor_INIT_Monitor_0_PF_INIT_MONITOR.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/INIT_Monitor/INIT_Monitor.v
+

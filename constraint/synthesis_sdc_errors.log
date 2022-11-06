@@ -1,0 +1,1 @@
+Error: SDC0058: C:\Libero_Projects\PF_Mi_V_Tut\constraint\timing_user_constraints.sdc:2: Invalid set_clock_groups constraint: "[get_clocks { CCC_0_0/CCC_0_0/pll_inst_0/OUT0 }]" has incorrect clocks

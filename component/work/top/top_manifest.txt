@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Tue Oct 18 18:40:02 2022
+Project   :  C:\Libero_Projects\PF_Mi_V_Tut
+Component :  top
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/top/top.v
+

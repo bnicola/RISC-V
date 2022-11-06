@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Combinational Loop Report</title>
+<text>SmartTime Version 2022.2.0.10</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
+<text>Date: Wed Oct 19 20:42:08 2022
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPF300TS</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>-40 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Pre-Layout</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<text></text>
+<text>16 combinational loop cluster(s) have been detected in the design.
+</text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_9_set_RNIDEST:Y</item>
+ <item>scheduler_0/un1_triger_reg123_9:B</item>
+ <item>scheduler_0/un1_triger_reg123_9:Y</item>
+ <item>scheduler_0/un1_triger_reg123_9_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_9_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_9_set_RNIDEST:B</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_9_set_RNIDEST:Y and scheduler_0/un1_triger_reg123_9:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_7_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_7_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_9_set_RNIDEST:C</item>
+ <item>scheduler_0/un1_triger_reg123_7:B</item>
+ <item>scheduler_0/un1_triger_reg123_7:Y</item>
+ <item>scheduler_0/triger_reg[4]:ALn</item>
+ <item>scheduler_0/triger_reg[4]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_9_set_RNIDEST:A</item>
+ <item>scheduler_0/un1_triger_reg123_7_rs:ALn</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_9_set_RNIDEST:Y and scheduler_0/un1_triger_reg123_9:B</item>
+ <item>scheduler_0/un1_triger_reg123_9_set_RNIDEST:Y and scheduler_0/un1_triger_reg123_7:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_11_set_RNI61KL:Y</item>
+ <item>scheduler_0/un1_triger_reg123_11:B</item>
+ <item>scheduler_0/un1_triger_reg123_11:Y</item>
+ <item>scheduler_0/un1_triger_reg123_11_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_11_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_11_set_RNI61KL:B</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_11_set_RNI61KL:Y and scheduler_0/un1_triger_reg123_11:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_15_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_15_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_11_set_RNI61KL:C</item>
+ <item>scheduler_0/un1_triger_reg123_15:B</item>
+ <item>scheduler_0/un1_triger_reg123_15:Y</item>
+ <item>scheduler_0/un1_triger_reg123_15_rs:ALn</item>
+ <item>scheduler_0/triger_reg[5]:ALn</item>
+ <item>scheduler_0/triger_reg[5]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_11_set_RNI61KL:A</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_11_set_RNI61KL:Y and scheduler_0/un1_triger_reg123_15:B</item>
+ <item>scheduler_0/un1_triger_reg123_11_set_RNI61KL:Y and scheduler_0/un1_triger_reg123_11:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_10_rs_RNIOAUG:Y</item>
+ <item>scheduler_0/un1_triger_reg123_8:B</item>
+ <item>scheduler_0/un1_triger_reg123_8:Y</item>
+ <item>scheduler_0/un1_triger_reg123_8_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_8_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_10_rs_RNIOAUG:B</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_10_rs_RNIOAUG:Y and scheduler_0/un1_triger_reg123_8:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_10_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_10_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_10_rs_RNIOAUG:C</item>
+ <item>scheduler_0/un1_triger_reg123_10:B</item>
+ <item>scheduler_0/un1_triger_reg123_10:Y</item>
+ <item>scheduler_0/un1_triger_reg123_10_rs:ALn</item>
+ <item>scheduler_0/triger_reg[6]:ALn</item>
+ <item>scheduler_0/triger_reg[6]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_10_rs_RNIOAUG:A</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_10_rs_RNIOAUG:Y and scheduler_0/un1_triger_reg123_8:B</item>
+ <item>scheduler_0/un1_triger_reg123_10_rs_RNIOAUG:Y and scheduler_0/un1_triger_reg123_10:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_14_rs_RNI21TS:Y</item>
+ <item>scheduler_0/un1_triger_reg123_13:B</item>
+ <item>scheduler_0/un1_triger_reg123_13:Y</item>
+ <item>scheduler_0/un1_triger_reg123_13_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_13_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_14_rs_RNI21TS:B</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_14_rs_RNI21TS:Y and scheduler_0/un1_triger_reg123_13:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_14_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_14_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_14_rs_RNI21TS:C</item>
+ <item>scheduler_0/un1_triger_reg123_14:B</item>
+ <item>scheduler_0/un1_triger_reg123_14:Y</item>
+ <item>scheduler_0/un1_triger_reg123_14_rs:ALn</item>
+ <item>scheduler_0/triger_reg[0]:ALn</item>
+ <item>scheduler_0/triger_reg[0]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_14_rs_RNI21TS:A</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_14_rs_RNI21TS:Y and scheduler_0/un1_triger_reg123_13:B</item>
+ <item>scheduler_0/un1_triger_reg123_14_rs_RNI21TS:Y and scheduler_0/un1_triger_reg123_14:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_4_rs_RNI4M0U:Y</item>
+ <item>scheduler_0/un1_triger_reg123_6:B</item>
+ <item>scheduler_0/un1_triger_reg123_6:Y</item>
+ <item>scheduler_0/un1_triger_reg123_6_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_6_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_4_rs_RNI4M0U:B</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_4_rs_RNI4M0U:Y and scheduler_0/un1_triger_reg123_6:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_4_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_4_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_4_rs_RNI4M0U:C</item>
+ <item>scheduler_0/un1_triger_reg123_4:B</item>
+ <item>scheduler_0/un1_triger_reg123_4:Y</item>
+ <item>scheduler_0/un1_triger_reg123_4_rs:ALn</item>
+ <item>scheduler_0/triger_reg[1]:ALn</item>
+ <item>scheduler_0/triger_reg[1]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_4_rs_RNI4M0U:A</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_4_rs_RNI4M0U:Y and scheduler_0/un1_triger_reg123_4:B</item>
+ <item>scheduler_0/un1_triger_reg123_4_rs_RNI4M0U:Y and scheduler_0/un1_triger_reg123_6:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_1_rs_RNIV15U:Y</item>
+ <item>scheduler_0/un1_triger_reg123_3:B</item>
+ <item>scheduler_0/un1_triger_reg123_3:Y</item>
+ <item>scheduler_0/un1_triger_reg123_3_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_3_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_1_rs_RNIV15U:B</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_1_rs_RNIV15U:Y and scheduler_0/un1_triger_reg123_3:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_1_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_1_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_1_rs_RNIV15U:C</item>
+ <item>scheduler_0/un1_triger_reg123_1:B</item>
+ <item>scheduler_0/un1_triger_reg123_1:Y</item>
+ <item>scheduler_0/un1_triger_reg123_1_rs:ALn</item>
+ <item>scheduler_0/triger_reg[2]:ALn</item>
+ <item>scheduler_0/triger_reg[2]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_1_rs_RNIV15U:A</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_1_rs_RNIV15U:Y and scheduler_0/un1_triger_reg123_1:B</item>
+ <item>scheduler_0/un1_triger_reg123_1_rs_RNIV15U:Y and scheduler_0/un1_triger_reg123_3:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_set_RNII5UK:Y</item>
+ <item>scheduler_0/un1_triger_reg123:B</item>
+ <item>scheduler_0/un1_triger_reg123:Y</item>
+ <item>scheduler_0/un1_triger_reg123_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_set_RNII5UK:B</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_set_RNII5UK:Y and scheduler_0/un1_triger_reg123:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_5_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_5_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_set_RNII5UK:C</item>
+ <item>scheduler_0/un1_triger_reg123_5:B</item>
+ <item>scheduler_0/un1_triger_reg123_5:Y</item>
+ <item>scheduler_0/triger_reg[3]:ALn</item>
+ <item>scheduler_0/triger_reg[3]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_set_RNII5UK:A</item>
+ <item>scheduler_0/un1_triger_reg123_5_rs:ALn</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_set_RNII5UK:Y and scheduler_0/un1_triger_reg123:B</item>
+ <item>scheduler_0/un1_triger_reg123_set_RNII5UK:Y and scheduler_0/un1_triger_reg123_5:B</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_2_set:ALn</item>
+ <item>scheduler_0/un1_triger_reg123_2_set:Q</item>
+ <item>scheduler_0/un1_triger_reg123_12_rs_RNILPVP:B</item>
+ <item>scheduler_0/un1_triger_reg123_12_rs_RNILPVP:Y</item>
+ <item>scheduler_0/un1_triger_reg123_2:B</item>
+ <item>scheduler_0/un1_triger_reg123_2:Y</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_2_set:ALn and scheduler_0/un1_triger_reg123_2_set:Q</item>
+</list>
+<text></text>
+<text></text>
+<text>A combinational loop has been detected between pins:</text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_12_rs:CLK</item>
+ <item>scheduler_0/un1_triger_reg123_12_rs:Q</item>
+ <item>scheduler_0/un1_triger_reg123_12_rs_RNILPVP:C</item>
+ <item>scheduler_0/un1_triger_reg123_12:B</item>
+ <item>scheduler_0/un1_triger_reg123_12:Y</item>
+ <item>scheduler_0/un1_triger_reg123_12_rs:ALn</item>
+ <item>scheduler_0/triger_reg[7]:ALn</item>
+ <item>scheduler_0/triger_reg[7]:Q</item>
+ <item>scheduler_0/un1_triger_reg123_12_rs_RNILPVP:A</item>
+</list>
+<text></text>
+<text>It has been broken between pins </text>
+<text>   </text>
+<list>
+ <item>scheduler_0/un1_triger_reg123_12_rs_RNILPVP:Y and scheduler_0/un1_triger_reg123_12:B</item>
+ <item>scheduler_0/un1_triger_reg123_2:Y and scheduler_0/un1_triger_reg123_12_rs:CLK</item>
+</list>
+<text></text>
+<text></text>
+<text>You may use the set_disable_timing constraint to manually change the location where the loop is broken within a cell.</text>
+</doc>

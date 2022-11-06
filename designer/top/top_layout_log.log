@@ -1,0 +1,118 @@
+INFO: Reading User SDC file C:\Libero_Projects\PF_Mi_V_Tut\constraint\top_derived_constraints.sdc.
+INFO: Reading User SDC file C:\Libero_Projects\PF_Mi_V_Tut\constraint\timing_user_constraints.sdc.
+1 error found.
+Check logfile C:\Libero_Projects\PF_Mi_V_Tut\constraint\placer_sdc_errors.log for details.
+
+Error: SDC0058: C:\Libero_Projects\PF_Mi_V_Tut\constraint\timing_user_constraints.sdc:2: Invalid set_clock_groups constraint: "[get_clocks { CCC_0_0/CCC_0_0/pll_inst_0/OUT0 }]" has incorrect clocks
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : OFF
+Global Pins Demotion     : ON
+Driver Replication       : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file C:\Libero_Projects\PF_Mi_V_Tut\constraint\io\io_constraints.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Libero_Projects\PF_Mi_V_Tut\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Libero_Projects\PF_Mi_V_Tut\constraint\fp\user.pdc. 0 error(s) and 0 warning(s)
+
+ Running Timing based Global Demotion. 
+        Moved 2 async pins from global to its source 'reset_syn_0_0/reset_syn_0_0/dff_15_rep'.
+=== Registers Duplicated ===
+1  - reset_syn_0_0/reset_syn_0_0/dff_15_rep duplicated 
+   - reset_syn_0_0/reset_syn_0_0/dff_15_rep_GB_DEMOTE
+
+ Timing based Global Demotion completed successfully. 
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 63 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified bank 'Bank5' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner detected (1) out of (7) I/O Bank(s) with locked I/O technologies.
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 13 seconds
+
+Placer V5.0 - 2022.2.0 
+Design: top                             Started: Wed Oct 19 20:43:02 2022
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 14 seconds
+Placement                : 59 seconds
+Improvement              : 155 seconds
+
+Placer completed successfully.
+
+Design: top                             
+Finished: Wed Oct 19 20:48:13 2022
+Total CPU Time:     00:06:04            Total Elapsed Time: 00:05:11
+Total Memory Usage: 1567.4 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: scheduler_0/un1_triger_reg123:Y
+       Net: scheduler_0/un1_triger_reg123_Z
+Clock pins: 1
+    Driver: scheduler_0/un1_triger_reg123_8:Y
+       Net: scheduler_0/un1_triger_reg123_8_Z
+Clock pins: 1
+    Driver: scheduler_0/un1_triger_reg123_13:Y
+       Net: scheduler_0/un1_triger_reg123_13_Z
+Clock pins: 1
+    Driver: scheduler_0/un1_triger_reg123_9:Y
+       Net: scheduler_0/un1_triger_reg123_9_Z
+Clock pins: 1
+    Driver: scheduler_0/un1_triger_reg123_11:Y
+       Net: scheduler_0/un1_triger_reg123_11_Z
+Clock pins: 1
+    Driver: scheduler_0/un1_triger_reg123_6:Y
+       Net: scheduler_0/un1_triger_reg123_6_Z
+Clock pins: 1
+    Driver: scheduler_0/un1_triger_reg123_3:Y
+       Net: scheduler_0/un1_triger_reg123_3_Z
+Clock pins: 1
+    Driver: scheduler_0/un1_triger_reg123_2:Y
+       Net: scheduler_0/un1_triger_reg123_2_Z
+Clock pins: 1
+
+Router 
+Design: C:\Libero_Projects\PF_Mi_V_Tut\designer\top\topStarted: Wed Oct 19 20:48:36 2022
+
+
+Router completed successfully.
+
+Design: C:\Libero_Projects\PF_Mi_V_Tut\designer\top\top
+Finished: Wed Oct 19 20:49:43 2022
+Total CPU Time:     00:01:29            Total Elapsed Time: 00:01:07
+Total Memory Usage: 5352.4 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+-------+--------+------------+
+| Type          | Used  | Total  | Percentage |
++---------------+-------+--------+------------+
+| 4LUT          | 23332 | 299544 | 7.79       |
+| DFF           | 16844 | 299544 | 5.62       |
+| I/O Register  | 0     | 510    | 0.00       |
+| Logic Element | 26763 | 299544 | 8.93       |
++---------------+-------+--------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  66   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
+Completed writing pin report files.

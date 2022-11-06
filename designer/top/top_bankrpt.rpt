@@ -1,0 +1,61 @@
+********************************************************************
+I/O Bank Report - Date: Wed Oct 19 20:50:03 2022
+Product: Designer
+Release: v2022.2
+Version: 2022.2.0.10
+Design Name: top
+Family: PolarFire
+Die: MPF300TS
+Package: FCG1152
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 4             | 0            | 0
+    Output I/O                            | 40            | 0            | 0
+    Bidirectional I/O                     | 16            | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 1             | 0            | 0
+    Differential Bidirectional I/O Pairs  | 2             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS18                        | 1.80v | N/A   | 4     | 10     | 0            
+    SHIELD15                        | 1.50v | N/A   | 0     | 2      | 0            
+    SSTL15II (Input/Bidirectional)  | 1.50v | 0.75v | 0     | 0      | 20           
+    SSTL15II (Output)               | 1.50v | N/A   | 0     | 30     | 0            
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | N/A   | N/A   | 0    | 72    | 0     | 36     | N/A  | N/A   | N/A      | HSIO    
+    Bank1 | 1.50v | 0.75v | 2    | 60    | 3     | 30     | 44   | 60    | 0        | HSIO    
+    Bank2 | 1.80v | N/A   | 1    | 96    | 0     | 48     | N/A  | N/A   | N/A      | GPIO    
+    Bank3 | 3.30v | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank4 | N/A   | N/A   | 0    | 92    | 0     | 46     | N/A  | N/A   | N/A      | GPIO    
+    Bank5 | 3.30v | N/A   | 0    | 48    | 0     | 24     | N/A  | N/A   | N/A      | GPIO    
+    Bank6 | 1.80v | N/A   | 13   | 72    | 0     | 36     | N/A  | N/A   | N/A      | HSIO    
+    Bank7 | N/A   | N/A   | 0    | 72    | 0     | 36     | N/A  | N/A   | N/A      | HSIO    
+
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     1.50v | N/A   | 52   | 60    
+     1.80v | N/A   | 14   | 168   
+     3.30v | N/A   | 0    | 48    
+     1.50v | 0.75v | 16   | 60    
+

@@ -1,0 +1,36 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Tue Oct 11 16:14:47 2022
+Project   :  C:\Libero_Projects\PF_Mi_V_Tut
+Component :  UART_apb
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/core_obfuscated/Clock_gen.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/core_obfuscated/Rx_async.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/core_obfuscated/Tx_async.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/core_obfuscated/CoreUART.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/core_obfuscated/fifo_256x8_g5.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb.v
+
+Stimulus files for all Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/mti/scripts/bfmtovec_compile.do
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/mti/scripts/coreuart_usertb_include.bfm
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/mti/scripts/wave_vlog_amba.do
+
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/coreparameters.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/UART_apb/UART_apb_0/rtl/vlog/test/user/testbench.v
+

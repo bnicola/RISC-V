@@ -1,0 +1,410 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":744:17:744:29|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":749:17:749:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":751:17:751:29|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":753:17:753:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":755:17:755:29|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":772:17:772:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":779:17:779:29|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":782:17:782:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":784:17:784:29|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":790:17:790:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":793:17:793:29|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":796:17:796:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":798:21:798:33|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":803:17:803:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":805:17:805:29|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\SgCore\PF_DDR_CFG_INIT\1.0.100\cfg_init.v":808:17:808:28|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":18458:12:18458:24|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":18491:12:18491:23|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":18993:20:18993:32|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":19009:20:19009:31|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":19385:12:19385:24|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":19438:12:19438:23|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":22432:12:22432:24|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":22440:12:22440:23|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":22749:12:22749:24|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":22757:12:22757:23|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":24190:20:24190:32|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":24193:20:24193:31|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":24203:20:24203:32|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":24213:20:24213:31|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":24218:12:24218:24|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":24276:12:24276:23|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25152:20:25152:32|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25155:20:25155:31|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25165:20:25165:32|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25175:20:25175:31|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25180:12:25180:24|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25238:12:25238:23|Read directive translate_on.
+@N: CG334 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25860:16:25860:28|Read directive translate_off.
+@N: CG333 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":25862:16:25862:27|Read directive translate_on.
+@N: CG347 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@N: CG347 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_mnemonics_pkg.v":58:8:58:28|Synthesizing module miv_rv32_mnemonic_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_pkg.v":74:8:74:19|Synthesizing module miv_rv32_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_core_cfg_pkg.v":70:8:70:28|Synthesizing module miv_rv32_core_cfg_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_bist_shared_pkg.v":166:8:166:31|Synthesizing module miv_rv32_bist_shared_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_bist_seq_pkg.v":159:8:159:28|Synthesizing module miv_rv32_bist_seq_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_opsrv_debug_pkg.v":67:8:67:31|Synthesizing module miv_rv32_opsrv_debug_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_opsrv_pkg.v":69:8:69:25|Synthesizing module miv_rv32_opsrv_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\miv_rv32_opsrv_cfg_pkg.v":69:8:69:29|Synthesizing module miv_rv32_opsrv_cfg_pkg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":314:0:314:5|Synthesizing module work_C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v_unit in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":74:0:74:5|Synthesizing module work_C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v_unit in library work.
+@N: CG775 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\APB3\APB3.v":57:7:57:10|Synthesizing module APB3 in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v":22:7:22:34|Synthesizing module caxi4interconnect_ResetSycnc in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":24:7:24:36|Synthesizing module caxi4interconnect_Axi4CrossBar in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":25:7:25:26|Synthesizing module COREAXI4INTERCONNECT in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v":22:7:22:37|Synthesizing module caxi4interconnect_RegisterSlice in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":23:7:23:41|Synthesizing module caxi4interconnect_MstrDataWidthConv in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_AChannel.v":20:7:20:43|Synthesizing module caxi4interconnect_DWC_UpConv_AChannel in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Hold_Reg_Ctrl.v":21:7:21:37|Synthesizing module caxi4interconnect_Hold_Reg_Ctrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcAChannel.v":24:7:24:50|Synthesizing module caxi4interconnect_DWC_UpConv_preCalcAChannel in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v":25:7:25:33|Synthesizing module caxi4interconnect_FIFO_CTRL in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_upsizing.v":22:7:22:37|Synthesizing module caxi4interconnect_FIFO_upsizing in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=16, width=36
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=16, width=2
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v":25:7:25:33|Synthesizing module caxi4interconnect_FIFO_CTRL in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=4, width=25
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v":25:7:25:33|Synthesizing module caxi4interconnect_FIFO_CTRL in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=4, width=8
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_Hold_Reg.v":22:7:22:49|Synthesizing module caxi4interconnect_DWC_UpConv_WChan_Hold_Reg in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_Wchan_WriteDataFifoCtrl.v":36:7:36:58|Synthesizing module caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_ReadDataFifoCtrl.v":19:7:19:57|Synthesizing module caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChannel.v":33:7:33:43|Synthesizing module caxi4interconnect_DWC_UpConv_WChannel in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_BChannel.v":29:7:29:43|Synthesizing module caxi4interconnect_DWC_UpConv_BChannel in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=4, width=2
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_brespCtrl.v":20:7:20:37|Synthesizing module caxi4interconnect_DWC_brespCtrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel.v":32:7:32:43|Synthesizing module caxi4interconnect_DWC_UpConv_RChannel in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=4, width=26
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=16, width=67
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v":25:7:25:33|Synthesizing module caxi4interconnect_FIFO_CTRL in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_downsizing.v":20:7:20:39|Synthesizing module caxi4interconnect_FIFO_downsizing in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChan_Ctrl.v":20:7:20:45|Synthesizing module caxi4interconnect_DWC_UpConv_RChan_Ctrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcRChan_Ctrl.v":24:7:24:52|Synthesizing module caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\UpConverter.v":20:7:20:35|Synthesizing module caxi4interconnect_UpConverter in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":21:7:21:47|Synthesizing module caxi4interconnect_MstrClockDomainCrossing in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":23:7:23:39|Synthesizing module caxi4interconnect_MasterConvertor in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":25:7:25:45|Synthesizing module caxi4interconnect_MstrProtocolConverter in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v":22:7:22:37|Synthesizing module caxi4interconnect_RegisterSlice in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v":23:7:23:45|Synthesizing module caxi4interconnect_SlvDataWidthConverter in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v":26:7:26:44|Synthesizing module caxi4interconnect_SlvProtocolConverter in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":19:7:19:45|Synthesizing module caxi4interconnect_SlvAxi4ProtConvAXI4ID in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v":25:7:25:33|Synthesizing module caxi4interconnect_FIFO_CTRL in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":21:7:21:46|Synthesizing module caxi4interconnect_SlvClockDomainCrossing in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=8, width=65
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Bin2Gray.v":23:7:23:32|Synthesizing module caxi4interconnect_Bin2Gray in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_grayCodeCounter.v":21:7:21:43|Synthesizing module caxi4interconnect_CDC_grayCodeCounter in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_grayCodeCounter.v":21:7:21:43|Synthesizing module caxi4interconnect_CDC_grayCodeCounter in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_grayCodeCounter.v":21:7:21:43|Synthesizing module caxi4interconnect_CDC_grayCodeCounter in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_wrCtrl.v":21:7:21:34|Synthesizing module caxi4interconnect_CDC_wrCtrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_rdCtrl.v":20:7:20:34|Synthesizing module caxi4interconnect_CDC_rdCtrl in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v":22:7:22:32|Synthesizing module caxi4interconnect_CDC_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=8, width=70
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v":22:7:22:32|Synthesizing module caxi4interconnect_CDC_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=8, width=5
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v":22:7:22:32|Synthesizing module caxi4interconnect_CDC_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=8, width=74
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v":22:7:22:32|Synthesizing module caxi4interconnect_CDC_FIFO in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v":24:7:24:38|Synthesizing module caxi4interconnect_SlaveConvertor in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\Axi4Interconnect\Axi4Interconnect.v":1476:7:1476:22|Synthesizing module Axi4Interconnect in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\CCC_C0\CCC_C0_0\CCC_C0_CCC_C0_0_PF_CCC.v":5:7:5:28|Synthesizing module CCC_C0_CCC_C0_0_PF_CCC in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\CCC_C0\CCC_C0.v":264:7:264:12|Synthesizing module CCC_C0 in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\CoreGPIO_0\CoreGPIO_0_0\rtl\vlog\core\coregpio.v":23:7:23:38|Synthesizing module CoreGPIO_0_CoreGPIO_0_0_CoreGPIO in library work.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\CoreGPIO_0\CoreGPIO_0_0\rtl\vlog\core\coregpio.v":512:16:512:28|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\CoreGPIO_0\CoreGPIO_0_0\rtl\vlog\core\coregpio.v":515:16:515:28|Removing redundant assignment.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\CoreGPIO_0\CoreGPIO_0.v":153:7:153:16|Synthesizing module CoreGPIO_0 in library work.
+@N: CG775 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug.v":22:7:22:19|Component COREJTAGDEBUG not found in library "work" or "__hyper__lib__", but found in library COREJTAGDEBUG_LIB
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug.v":22:7:22:19|Synthesizing module COREJTAGDEBUG in library COREJTAGDEBUG_LIB.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":1442:7:1442:11|Synthesizing module UJTAG in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_bufd.v":20:7:20:24|Synthesizing module corejtagdebug_bufd in library COREJTAGDEBUG_LIB.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":229:7:229:10|Synthesizing module BUFD in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREJTAGDEBUG\4.0.100\core\corejtagdebug_uj_jtag.v":47:7:47:27|Synthesizing module COREJTAGDEBUG_UJ_JTAG in library COREJTAGDEBUG_LIB.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\COREJTAGDEBUG_0\COREJTAGDEBUG_0.v":56:7:56:21|Synthesizing module COREJTAGDEBUG_0 in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\polarfire_syn_comps.v":1470:7:1470:15|Synthesizing module HS_IO_CLK in library work.
+@N: CG364 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\DDR3_0\CCC_0\DDR3_0_CCC_0_PF_CCC.v":5:7:5:25|Synthesizing module DDR3_0_CCC_0_PF_CCC in library work.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":518:17:518:23|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":534:17:534:23|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":576:36:576:45|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":675:24:675:37|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":683:26:683:41|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":691:23:691:35|Removing redundant assignment.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":696:0:696:5|Found RAM outdly, depth=8, width=8
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":696:0:696:5|Found RAM indly, depth=8, width=8
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\TRN_CLK.v":429:22:429:33|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_dqsw.v":359:17:359:23|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_dqsw.v":432:26:432:39|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_dqsw.v":440:29:440:45|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_bclksclk.v":177:22:177:33|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_bclksclk.v":249:23:249:35|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_bclksclk.v":269:27:269:43|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\gate_training.v":2497:22:2497:26|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\WRLVL_BOT.v":142:19:142:27|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\WRLVL_BOT.v":143:21:143:31|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\WRLVL_BOT.v":172:20:172:29|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\WRLVL_BOT.v":173:20:173:29|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\WRLVL_BOT.v":190:18:190:25|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\WRLVL_BOT.v":235:26:235:41|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":285:25:285:33|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":288:31:288:45|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":299:35:299:41|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":300:43:300:57|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":305:37:305:45|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":307:43:307:57|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":312:37:312:45|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":313:35:313:41|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":324:37:324:45|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":325:35:325:41|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":326:43:326:57|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":332:28:332:36|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":335:34:335:48|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\write_callibrator.v":461:23:461:35|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\write_callibrator.v":490:20:490:29|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\write_callibrator.v":505:22:505:33|Removing redundant assignment.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\ram_simple_dp.v":48:0:48:5|Found RAM mem, depth=3, width=64
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\ddr_init_iterator.v":45:71:45:85|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\ddr_init_iterator.v":54:65:54:77|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\ddr_init_iterator.v":56:65:56:77|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\ddr_init_iterator.v":61:72:61:89|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":5850:72:5850:89|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":5851:72:5851:89|Removing redundant assignment.
+@N: CL214 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":6037:35:6037:46|Found multi-write port RAM mem, number of write ports=2, depth=32, width=32
+@N: CL214 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":6036:35:6036:46|Found multi-write port RAM mem, number of write ports=2, depth=32, width=32
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12880:67:12880:73|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12888:67:12888:73|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12908:48:12908:54|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12909:48:12909:54|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12910:48:12910:54|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12911:48:12911:55|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":13087:45:13087:49|Removing redundant assignment.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12426:12:12426:20|Found RAM fifoMem, depth=2, width=41
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12426:12:12426:20|Found RAM fifoMem, depth=2, width=34
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":6149:36:6149:48|Removing redundant assignment.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14698:18:14698:52|Found RAM mem, depth=16384, width=32
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":94:29:94:44|Removing redundant assignment.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[0] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[1] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[2] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[3] is always 1.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[4] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[5] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[6] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[7] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[8] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[9] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[10] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[11] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[12] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[13] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[14] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[15] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[16] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[17] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[18] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[19] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[20] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[21] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[22] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[23] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[24] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[25] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[26] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[27] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[28] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[29] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[30] is always 0.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":82:0:82:5|Register bit i[31] is always 0.
+@N: CG775 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Component CORESPI not found in library "work" or "__hyper__lib__", but found in library CORESPI_LIB
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":785:0:785:8|Removing redundant assignment.
+@N: CG179 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":868:0:868:8|Removing redundant assignment.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Tx_async.v":81:0:81:7|Input CUARTI1I is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Tx_async.v":84:0:84:7|Input CUARTlO1 is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Tx_async.v":87:0:87:7|Input CUARTOI1 is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\UART_apb\UART_apb_0\rtl\vlog\core_obfuscated\Clock_gen.v":75:0:75:16|Input BAUD_VAL_FRACTION is unused.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=32, width=1
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=32, width=8
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":41:0:41:5|Register bit prdata[33] is always 0.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\hdl\scheduler.sv":9:30:9:36|Input penable is unused.
+@N: CL135 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\reset_syn_1\reset_syn_1_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N: CL135 :"C:\Libero_Projects\PF_Mi_V_Tut\component\work\reset_syn_0\reset_syn_0_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5291:27:5291:40|Input mtime_count_in is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":6387:49:6387:64|Input cpu_i_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":6400:49:6400:64|Input cpu_d_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":6419:49:6419:63|Input udma_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3543:64:3543:78|Input opsrv_parity_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3544:64:3544:76|Input cfg_fence_all is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3570:64:3570:74|Input aximstr_bid is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3585:64:3585:85|Input cpu_axi_fence_wr_flush is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3589:64:3589:78|Input udma_axi_awaddr is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3590:64:3590:77|Input udma_axi_awlen is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3591:64:3591:78|Input udma_axi_awsize is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3593:64:3593:79|Input udma_axi_awvalid is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3594:64:3594:77|Input udma_axi_wdata is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3595:64:3595:79|Input udma_axi_wdata_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3596:64:3596:77|Input udma_axi_wlast is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3597:64:3597:77|Input udma_axi_wstrb is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3599:64:3599:78|Input udma_axi_wvalid is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3600:64:3600:86|Input udma_axi_fence_wr_flush is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3602:64:3602:79|Input udma_axi_war_hzd is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":2968:57:2968:67|Input aximstr_rid is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3004:57:3004:71|Input udma_axi_araddr is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3005:57:3005:70|Input udma_axi_arlen is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3006:57:3006:71|Input udma_axi_arsize is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3008:57:3008:72|Input udma_axi_arvalid is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3009:57:3009:71|Input udma_axi_rready is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3015:57:3015:79|Input udma_axi_fence_rd_flush is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":3017:57:3017:72|Input udma_axi_raw_hzd is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14468:45:14468:50|Input resetn is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14469:45:14469:47|Input clk is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14639:48:14639:51|Input rstb is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14642:48:14642:49|Input ce is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14644:48:14644:52|Input ret1n is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14645:48:14645:58|Input pg_override is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14646:48:14646:57|Input ecc_bypass is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14647:48:14647:61|Input ram_err_inject is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14652:48:14652:56|Input ram_sb_in is unused.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9303:2:9303:7|Trying to extract state machine for register cpu_d_wr_rd_state.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9065:49:9065:63|Input opsrv_parity_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9074:49:9074:68|Input cpu_i_req_rd_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9076:49:9076:64|Input cpu_i_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9078:49:9078:64|Input cpu_i_resp_ready is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9084:49:9084:68|Input cpu_d_req_rd_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9086:49:9086:62|Input cpu_d_req_read is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9087:49:9087:63|Input cpu_d_req_write is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9089:49:9089:64|Input cpu_d_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9091:49:9091:67|Input cpu_d_req_wr_data_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9093:49:9093:64|Input cpu_d_resp_ready is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9099:49:9099:62|Input udma_req_valid is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9101:49:9101:67|Input udma_req_rd_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9102:49:9102:67|Input udma_req_wr_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9103:49:9103:61|Input udma_req_read is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9104:49:9104:62|Input udma_req_write is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9105:49:9105:61|Input udma_req_addr is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9106:49:9106:63|Input udma_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9107:49:9107:60|Input udma_req_len is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9108:49:9108:64|Input udma_req_wr_data is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9109:49:9109:66|Input udma_req_wr_data_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9111:49:9111:63|Input udma_resp_ready is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9118:49:9118:70|Input tcm_dma_access_disable is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9119:49:9119:70|Input tcm_dap_access_disable is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9120:49:9120:65|Input tcm_dap_req_valid is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9122:49:9122:70|Input tcm_dap_req_rd_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9123:49:9123:70|Input tcm_dap_req_wr_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9124:48:9124:63|Input tcm_dap_req_addr is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9125:49:9125:66|Input tcm_dap_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9126:49:9126:67|Input tcm_dap_req_wr_data is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9127:49:9127:69|Input tcm_dap_req_wr_data_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":9129:49:9129:66|Input tcm_dap_resp_ready is unused.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14288:2:14288:7|Trying to extract state machine for register hipri_req_ptr.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":6099:6:6099:11|Trying to extract state machine for register gen_apb_byte_shim.apb_st.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5931:49:5931:63|Input opsrv_parity_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5938:49:5938:68|Input cpu_i_req_rd_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5940:49:5940:64|Input cpu_i_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5942:49:5942:64|Input cpu_i_resp_ready is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5948:49:5948:68|Input cpu_d_req_rd_byte_en is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5951:49:5951:64|Input cpu_d_req_addr_p is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":5955:49:5955:64|Input cpu_d_resp_ready is unused.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":14288:2:14288:7|Trying to extract state machine for register hipri_req_ptr.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":11381:0:11381:8|Trying to extract state machine for register debug_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":10991:0:10991:8|Trying to extract state machine for register command_reg_state.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":10455:39:10455:52|Input dmi_resp_ready is unused.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":11826:0:11826:8|Trying to extract state machine for register sba_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12852:12:12852:20|Trying to extract state machine for register gen_shift_register_active_high.gen_shift_register_active_low.dtmcs_dmistat.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12732:12:12732:20|Trying to extract state machine for register gen_current_state_register_active_high.gen_current_state_register_active_low.currTapState.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12661:48:12661:60|Input dtm_req_ready is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":172:50:172:60|Input m_timer_irq is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":208:50:208:72|Input tcm1_cpu_access_disable is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":209:50:209:72|Input tcm1_dma_access_disable is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":210:50:210:72|Input tcm1_dap_access_disable is unused.
+@N: CL159 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":211:50:211:70|Input tcm_dap_apb_slv_paddr is unused.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":16192:4:16192:9|Found RAM gen_buff_loop[0].buff_entry_data_resp, depth=3, width=16
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":16192:4:16192:9|Found RAM gen_buff_loop[0].buff_entry_data_resp, depth=3, width=32
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":16192:4:16192:9|Found RAM gen_buff_loop[0].buff_entry_error_resp, depth=3, width=2
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Microsemi\MiV\MIV_RV32\3.0.100\core_merged\miv_rv32_core_merged.v":16192:4:16192:9|Found RAM gen_buff_loop[0].buff_entry_error_resp, depth=3, width=2
+@N: CL135 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\CoreDDR_TIP_INT.v":1438:0:1438:5|Found sequential shift reset_n_int with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\CoreDDR_TIP_INT.v":1475:0:1475:5|Found sequential shift dfi_rddata_en_p0 with address depth of 4 words and data bit width of 1.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\write_callibrator.v":465:0:465:5|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\ddr4_vref.v":179:0:179:5|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\TRN_COMPLETE.v":236:3:236:8|Trying to extract state machine for register visual_trn_compl_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IOG_CTRL_SM.v":234:3:234:8|Trying to extract state machine for register visual_APB_IOG_CONTROLLER_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\WRLVL_BOT.v":114:0:114:5|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\dq_align_dqs_optimization.v":1701:3:1701:8|Trying to extract state machine for register visual_Lane_Fifo_Protect_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\dq_align_dqs_optimization.v":977:3:977:8|Trying to extract state machine for register visual_rx_valid_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\dq_align_dqs_optimization.v":800:3:800:8|Trying to extract state machine for register visual_dq_dqs_optimisation_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\gate_training.v":2374:3:2374:8|Trying to extract state machine for register visual_shim_logic_2_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\gate_training.v":2243:3:2243:8|Trying to extract state machine for register visual_shim_logic_1_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\gate_training.v":2112:3:2112:8|Trying to extract state machine for register visual_shim_logic_0_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\gate_training.v":1403:3:1403:8|Trying to extract state machine for register visual_gate_training_current.
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_bclksclk.v":293:0:293:5|Found RAM late, depth=8, width=1
+@N: CL134 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_bclksclk.v":293:0:293:5|Found RAM early, depth=8, width=1
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_bclksclk.v":316:0:316:5|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_dqsw.v":229:0:229:5|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\TRN_CLK.v":328:0:328:5|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\trn_cmdaddr.v":353:0:353:5|Trying to extract state machine for register current_state.
+@N: CL189 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IF.v":206:3:206:8|Register bit wait_cnt[2] is always 0.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREDDR_TIP\2.1.101\rtl\vlog\core\APB_IF.v":206:3:206:8|Trying to extract state machine for register visual_Start_current.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Libero_Projects\PF_Mi_V_Tut\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N|Running in 64-bit mode
+

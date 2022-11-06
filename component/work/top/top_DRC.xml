@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between APB3_0:APBmslave0:PWDATAS[0-31] and UART_apb_0:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/APB3_0:APBmslave0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface ID width mismatch</message>
+    <detail> There is an ID width mismatch between DDR3_0_0:AXI4slave0:axi0_rid[0-3] and Axi4Interconnect_0:AXI4mslave0:SLAVE0_RID[0-1] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/DDR3_0_0:AXI4slave0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between scheduler_0:APB_SLAVE:prdata[0-63] and APB3_0:APBmslave3:PRDATAS3[0-31] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/scheduler_0:APB_SLAVE</crossprobe>
+  </drc>
+</drcreport>

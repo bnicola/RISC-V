@@ -1,0 +1,420 @@
+# Tue Oct 11 20:04:39 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: IA4
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 137MB)
+
+@W: BN309 |One or more non-fatal issues found in constraints; Please run Constraint Check for analysis
+
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.C0_axi_if_Z20(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 179MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 180MB peak: 180MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 180MB peak: 180MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 180MB peak: 180MB)
+
+
+Begin compile point sub-process log
+
+		 Mapper or mapping options changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 180MB peak: 180MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 185MB)
+
+Encoding state machine r_wr_addr[2:0] (in view: work.C0_util_lat1_to_lat0_46s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_addr[2:0] (in view: work.C0_util_lat1_to_lat0_46s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine r_wr_addr[2:0] (in view: work.C0_util_lat1_to_lat0_129s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_addr[2:0] (in view: work.C0_util_lat1_to_lat0_129s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine r_wr_addr[2:0] (in view: work.C0_util_lat1_to_lat0_95s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_addr[2:0] (in view: work.C0_util_lat1_to_lat0_95s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine r_wr_addr[2:0] (in view: work.C0_util_lat1_to_lat0_145s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_addr[2:0] (in view: work.C0_util_lat1_to_lat0_145s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine r_wr_addr[2:0] (in view: work.C0_util_lat1_to_lat0_70s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_addr[2:0] (in view: work.C0_util_lat1_to_lat0_70s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine r_wr_addr[2:0] (in view: work.C0_util_lat1_to_lat0_77s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_addr[2:0] (in view: work.C0_util_lat1_to_lat0_77s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 193MB peak: 193MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 221MB peak: 221MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 209MB peak: 221MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 212MB peak: 221MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 226MB peak: 226MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 226MB peak: 226MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 226MB peak: 226MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 274MB peak: 274MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:12s		    -0.65ns		2676 /      3899
+   2		0h:00m:12s		    -0.65ns		2645 /      3899
+   3		0h:00m:12s		    -0.65ns		2645 /      3899
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+   4		0h:00m:12s		    -0.05ns		2649 /      3903
+   5		0h:00m:13s		     0.03ns		2649 /      3903
+   6		0h:00m:13s		     0.03ns		2649 /      3903
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 277MB peak: 277MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 279MB peak: 279MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_0 with period 20.00ns 
+@N: MT615 |Found clock CCC_C0_0/CCC_C0_0/pll_inst_0/OUT0 with period 12.00ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT0 with period 1.50ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT1 with period 6.00ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT2 with period 1.50ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT3 with period 1.50ns 
+@W: MT420 |Found inferred clock COREDDR_TIP_INT_Z73|VCO_PHSEL_ROTATE_inferred_clock[0] with period 10.00ns. Please declare a user-defined clock on net DDR3_0_0.CCC_0.PHASE_ROTATE_0.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Oct 11 20:04:53 2022
+#
+
+
+Top view:               top
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Libero_Projects\PF_Mi_V_Tut\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.594
+
+                                                           Requested     Estimated     Requested     Estimated               Clock                          Clock                
+Starting Clock                                             Frequency     Frequency     Period        Period        Slack     Type                           Group                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CCC_C0_0/CCC_C0_0/pll_inst_0/OUT0                          83.3 MHz      NA            12.000        NA            NA        generated (from REF_CLK_0)     default_clkgroup     
+COREDDR_TIP_INT_Z73|VCO_PHSEL_ROTATE_inferred_clock[0]     100.0 MHz     NA            10.000        NA            NA        inferred                       Inferred_clkgroup_0_6
+DDR3_0_0/CCC_0/pll_inst_0/OUT0                             666.7 MHz     NA            1.500         NA            NA        generated (from REF_CLK_0)     default_clkgroup     
+DDR3_0_0/CCC_0/pll_inst_0/OUT1                             166.7 MHz     185.0 MHz     6.000         5.406         0.594     generated (from REF_CLK_0)     default_clkgroup     
+DDR3_0_0/CCC_0/pll_inst_0/OUT2                             666.7 MHz     NA            1.500         NA            NA        generated (from REF_CLK_0)     default_clkgroup     
+DDR3_0_0/CCC_0/pll_inst_0/OUT3                             666.7 MHz     NA            1.500         NA            NA        generated (from REF_CLK_0)     default_clkgroup     
+REF_CLK_0                                                  50.0 MHz      NA            20.000        NA            NA        declared                       default_clkgroup     
+=================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                        Ending                          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR3_0_0/CCC_0/pll_inst_0/OUT1  DDR3_0_0/CCC_0/pll_inst_0/OUT1  |  6.000       0.594  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: DDR3_0_0/CCC_0/pll_inst_0/OUT1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                      Starting                                                                                  Arrival          
+Instance                              Reference                          Type     Pin     Net                                   Time        Slack
+                                      Clock                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------
+wx7snj9upJBJ6era3o3e                  DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       wx7snj9upJBJ6era3o3e                  0.218       0.594
+b1lnogdCijfnhhn                       DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b1lnogdCijfnhhn                       0.218       0.842
+eBsgAoAzGL6JuB0DKB6Gu3DgCLdh2         DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       eBsgAoAzGL6JuB0DKB6Gu3DgCLdh2         0.218       0.880
+b1lnogdCijfnhm3                       DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b1lnogdCijfnhm3                       0.218       0.987
+qj7Aiu5Dbuq1xgs2e32jabJ               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       qj7Aiu5Dbuq1xgs2e32jabJ               0.218       1.216
+qj7Aiu5Dbuq1xgs59EE4qbJ               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       qj7Aiu5Dbuq1xgs59EE4qbJ               0.218       1.248
+rdyp7kK3jbAdAvrlvvGwAxzfEtrq0t623     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       rdyp7kK3jbAdAvrlvvGwAxzfEtrq0t623     0.218       1.358
+qj7Aiu5Dbuq1xgs2e32ja7J               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       qj7Aiu5Dbuq1xgs2e32ja7J               0.218       1.368
+qj7Aiu5Dbuq1xgs59EE4q7J               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       qj7Aiu5Dbuq1xgs59EE4q7J               0.218       1.400
+b40ECfigtAfruh7                       DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b40ECfigtAfruh7                       0.218       1.406
+=================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                            Starting                                                                                            Required          
+Instance                                    Reference                          Type     Pin     Net                                             Time         Slack
+                                            Clock                                                                                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+b9yakcc09Ff3JgliKf06xlK7J                   DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       bbxfvJ59tw2k4oroj0trw7sBF2I3                    6.000        0.594
+b9yakcc09Ff3JgliKf06xlKI3                   DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       d31iEmpqELhy7G82q9e28leFIsJhBoks6gEv9ss43e      6.000        0.638
+b9yakcc09Ff3JgliKf06xlKDn                   DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       bgIbFltfgKujgk7Dq0faEdG3a9f9Bi2EBDp6su          6.000        0.698
+b9yakcc09Ff3JgliKf06xlK23                   DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       bbxfvJ59tw2k4oroj0trw7sBF2Dn                    6.000        0.758
+b9yakcc09Ff3JgliKf06xlKxn                   DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       bI6pg2ll6AqdtyddsIcwt40GKvwk4tsoI7J             6.000        0.842
+geGFH619iyge26HuL7j3nIe2w5gv5Fo0hj40BrJ     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       tn6LfHfntifcegCHDHGDltdmrcL5gw6I83ni14vnhhn     6.000        0.842
+geGFH619iyge26HuL7j3nIe2w5gv5Fo0hj40Bxn     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       tn6LfHfntifcegCHDHGDltdmrcL5gw6I83ni14vnhm3     6.000        0.842
+geGFH619iyge26HuL7j3nIe2w5gv5Fo0hj40B23     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       tn6LfHfntifcegCHDHGDltdmrcL5gw6I83ni14vnhrJ     6.000        0.842
+geGFH619iyge26HuL7j3nIe2w5gv5Fo0hj40B7J     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       tn6LfHfntifcegCHDHGDltdmrcL5gw6I83ni14vnhxn     6.000        0.842
+geGFH619iyge26HuL7j3nIe2w5gv5Fo0hj40BDn     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       tn6LfHfntifcegCHDHGDltdmrcL5gw6I83ni14vnh23     6.000        0.842
+==================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.000
+
+    - Propagation time:                      5.406
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.594
+
+    Number of logic level(s):                7
+    Starting point:                          wx7snj9upJBJ6era3o3e / Q
+    Ending point:                            b9yakcc09Ff3JgliKf06xlK7J / D
+    The start point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+    The end   point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+wx7snj9upJBJ6era3o3e                       SLE      Q        Out     0.218     0.218 r     -         
+wx7snj9upJBJ6era3o3e                       Net      -        -       0.662     -           11        
+Kg4o7AqqvF3Jmsxhn                          CFG3     C        In      -         0.880 r     -         
+Kg4o7AqqvF3Jmsxhn                          CFG3     Y        Out     0.148     1.028 f     -         
+Kg4o7AqqvF3Jmsxhn                          Net      -        -       0.738     -           18        
+dbDpB1FKpmDfhqjufnuKgr                     CFG4     C        In      -         1.766 f     -         
+dbDpB1FKpmDfhqjufnuKgr                     CFG4     Y        Out     0.145     1.911 f     -         
+dbDpB1FKpmDfhqjufnuKgr                     Net      -        -       0.547     -           3         
+bCtAaIKj6h2ys1sbmaEF0Hxba                  CFG4     D        In      -         2.458 f     -         
+bCtAaIKj6h2ys1sbmaEF0Hxba                  CFG4     Y        Out     0.192     2.650 f     -         
+bCtAaIKj6h2ys1sbmaEF0Hxba                  Net      -        -       0.674     -           12        
+biDJ0cBjFafKJqt55bHmh29ejbypkinF1tBxre     CFG4     C        In      -         3.324 f     -         
+biDJ0cBjFafKJqt55bHmh29ejbypkinF1tBxre     CFG4     Y        Out     0.145     3.470 f     -         
+bLgwtqkoI7DIEhgE5d9wLmihB2HK5yAJ9Cr        Net      -        -       0.650     -           10        
+k1sxxgwL4uuLggeyB9Jk2aEn5bbeg0aGkjm3       CFG3     C        In      -         4.119 f     -         
+k1sxxgwL4uuLggeyB9Jk2aEn5bbeg0aGkjm3       CFG3     Y        Out     0.148     4.267 f     -         
+k1sxxgwL4uuLggeyB9Jk2aEn5bbeg0aGkjm3       Net      -        -       0.563     -           4         
+rscElofjgDa45y140mwj69cc6dyrjzfmB          CFG4     D        In      -         4.831 f     -         
+rscElofjgDa45y140mwj69cc6dyrjzfmB          CFG4     Y        Out     0.192     5.022 f     -         
+bgIbFltfgKujgk7Dq0faEdG3a8LDyDBCJIkq3i     Net      -        -       0.118     -           1         
+3pwBHcCAuxEd9iw40pbwqmkB8Ijaxn             CFG4     C        In      -         5.140 f     -         
+3pwBHcCAuxEd9iw40pbwqmkB8Ijaxn             CFG4     Y        Out     0.148     5.288 r     -         
+bbxfvJ59tw2k4oroj0trw7sBF2I3               Net      -        -       0.118     -           1         
+b9yakcc09Ff3JgliKf06xlK7J                  SLE      D        In      -         5.406 r     -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 5.406 is 1.336(24.7%) logic and 4.070(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":13:0:13:0|Timing constraint (through [get_nets { Axi4Interconnect_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":14:0:14:0|Timing constraint (from [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.rdGrayCounter*.cntGray* }] to [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.rdPtr_s1* }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":15:0:15:0|Timing constraint (from [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.wrGrayCounter*.cntGray* }] to [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.wrPtr_s1* }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":16:0:16:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.ARST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":17:0:17:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_*_CTRL.I_LANECTRL.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":18:0:18:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0.I_LANECTRL*.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":19:0:19:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.RX_SYNC_RST* }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":21:0:21:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_OUT_OF_RANGE }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":22:0:22:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":23:0:23:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":24:0:24:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":25:0:25:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":26:0:26:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_LOAD DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":27:0:27:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":28:0:28:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":29:0:29:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":30:0:30:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":31:0:31:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":32:0:32:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":33:0:33:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":34:0:34:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":35:0:35:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":36:0:36:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":37:0:37:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":38:0:38:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":39:0:39:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":40:0:40:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":41:0:41:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_LOAD DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":42:0:42:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":43:0:43:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":44:0:44:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":45:0:45:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":46:0:46:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":47:0:47:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":48:0:48:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":49:0:49:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":50:0:50:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":51:0:51:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":52:0:52:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_*FEEDBACK*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":53:0:53:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.OB_DIFF_CK0.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":54:0:54:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.OB_A_12.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":55:0:55:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":56:0:56:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":57:0:57:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":58:0:58:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":59:0:59:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":60:0:60:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF_DIFF_DQS_*.YN }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":61:0:61:0|Timing constraint (to [get_pins { DDR3_0_0.CCC_0.pll_inst_0.PHASE_OUT0_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":62:0:62:0|Timing constraint (to [get_pins { DDR3_0_0.CCC_0.pll_inst_0.PHASE_OUT2_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":63:0:63:0|Timing constraint (to [get_pins { DDR3_0_0.CCC_0.pll_inst_0.PHASE_OUT3_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+None
+Writing compile point status file C:\Libero_Projects\PF_Mi_V_Tut\synthesis\C0_axi_if_Z20\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name              Status       Reason                 
+------------------------------------------------------
+C0_axi_if_Z20     Remapped     Mapping options changed
+======================================================
+
+Process took 0h:00m:15s realtime, 0h:00m:15s cputime
+# Tue Oct 11 20:04:54 2022
+
+###########################################################]

@@ -1,0 +1,25 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 800
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                                              CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR3_0_0_SYS_CLK                                                      9888            0                   0              9888             YES                  
+CCC_C0_0_OUT0_FABCLK_0                                                4542            0                   0              4542             YES                  
+COREJTAGDEBUG_0_0.COREJTAGDEBUG_0_0.COREJTAGDEBUG_0_0_TGT_TCK_0_i     209             0                   0              209              YES                  
+DDR3_0_0.CCC_0_OUT2_HS_IO_CLK_0                                       55              0                   0              55               YES                  
+DDR3_0_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0_TX_DQS_270                  26              0                   0              26               YES                  
+COREJTAGDEBUG_0_0.COREJTAGDEBUG_0_0.iUDRCK                            17              0                   1              18               YES                  
+DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL_TX_DQS                              10              0                   0              10               YES                  
+DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL_TX_DQS                              10              0                   0              10               YES                  
+DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL_RX_DQS_90[0]                        9               0                   0              9                NO                   
+DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL_RX_DQS_90[0]                        9               0                   0              9                NO                   
+DDR3_0_0.CCC_0_OUT3_HS_IO_CLK_0                                       2               0                   0              2                YES                  
+DDR3_0_0.reset_n_int_arst                                             0               4771                0              4771             YES                  
+DDR3_0_0.DDRCTRL_0.IeLFk51fKvqEJyb0giD6.NxK4ke7CB8u                   0               4025                0              4025             YES                  
+Axi4Interconnect_0.Axi4Interconnect_0.sysReset                        0               1462                0              1462             YES                  
+dff_arst                                                              0               1096                0              1096             YES                  
+===============================================================================================================================================================

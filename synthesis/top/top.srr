@@ -1,0 +1,690 @@
+# Wed Oct 12 15:16:14 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: IA4
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 122MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 126MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 127MB peak: 134MB)
+
+@W: BN309 |One or more non-fatal issues found in constraints; Please run Constraint Check for analysis
+
+@N: MF104 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\rdlvl_train.v":18:7:18:17|Found compile point of type hard on View view:work.RDLVL_TRAIN_genblk1_0__RDLVL_TRAIN(verilog) 
+@N: MF104 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\rdlvl_train.v":18:7:18:17|Found compile point of type hard on View view:work.RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) 
+@N: MF104 :"c:\libero_projects\pf_mi_v_tut\component\microsemi\miv\miv_rv32\3.0.100\core_merged\miv_rv32_core_merged.v":7141:7:7141:21|Found compile point of type hard on View view:work.miv_rv32_expipe_Z77(verilog) 
+@N: MF104 :"c:\libero_projects\pf_mi_v_tut\component\work\miv_rv32_c1\miv_rv32_c1.v":70:7:70:17|Found compile point of type hard on View view:work.MIV_RV32_C1(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.top(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 294MB peak: 294MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 253MB peak: 323MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\libero_projects\pf_mi_v_tut\component\work\top\top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 253MB peak: 323MB)
+
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z3(verilog)) has its enable tied to GND.
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_64s_0s_1s(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_64s_0s_1s(verilog) (flattening)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 267MB peak: 323MB)
+
+@N: FX403 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ram_simple_dp.v":48:0:48:5|Property "block_ram" or "no_rw_check" found for RAM DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.LANE_ALIGNMENT.genblk1\[1\]\.FIFO_BLK.ram_simple_dp.mem[63:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ram_simple_dp.v":48:0:48:5|RAM DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.LANE_ALIGNMENT.genblk1\[1\]\.FIFO_BLK.ram_simple_dp.mem[63:0] (in view: work.top(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ram_simple_dp.v":48:0:48:5|Property "block_ram" or "no_rw_check" found for RAM DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.LANE_ALIGNMENT.genblk1\[0\]\.FIFO_BLK.ram_simple_dp.mem[63:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ram_simple_dp.v":48:0:48:5|RAM DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.LANE_ALIGNMENT.genblk1\[0\]\.FIFO_BLK.ram_simple_dp.mem[63:0] (in view: work.top(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\coreddr_tip_int.v":1518:0:1518:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DFI_WRLVL_RESP[1] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DFI_WRLVL_RESP[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\coreddr_tip_int.v":1051:0:1051:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DQSW_DELAY_LINE_DIRECTION[1] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.CMD_DELAY_LINE_DIRECTION. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\coreddr_tip_int.v":1051:0:1051:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DQSW_DELAY_LINE_DIRECTION[0] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.CMD_DELAY_LINE_DIRECTION. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)); safe FSM implementation is not required.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[7] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[6] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[5] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[3] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[2] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[1] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_mst[0] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.to_boundary_master_reg[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.to_boundary_master_reg[3] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.to_boundary_master_reg[2] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.to_boundary_master_reg[1] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.sizeDiff_reg[2] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[7] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[6] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[5] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[3] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[2] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[1] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_mst[0] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.to_boundary_master_reg[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.to_boundary_master_reg[3] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.to_boundary_master_reg[2] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.to_boundary_master_reg[1] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.sizeDiff_reg[2] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Register bit mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.len_offset_pre[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Register bit mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_aw_inst.len_offset_pre[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.len_offset_reg[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.len_offset_reg[4] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Register bit mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.len_offset_pre[5] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Register bit mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_aw_inst.len_offset_pre[5] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_AWChan.len_offset_reg[5] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Register bit mstrDWC.genblk1\.MstUpConv.DWC_ARChan.len_offset_reg[5] (in view view:work.caxi4interconnect_MasterConvertor_Z8(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[1] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[2] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[3] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[4] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[5] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[6] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.alen_sec_wrap_reg[7] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[1] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[2] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[3] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[4] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[5] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[6] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.alen_sec_wrap_reg[7] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.mask_wrap_addr_reg[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.mask_wrap_addr_reg[1] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.mask_wrap_addr_reg[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.mask_wrap_addr_reg[1] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.mask_wrap_addr_reg[2] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.mask_wrap_addr_reg[3] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.mask_wrap_addr_reg[4] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.mask_wrap_addr_reg[5] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.mask_wrap_addr_reg[2] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.mask_wrap_addr_pre[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.mask_wrap_addr_pre[1] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_aw_inst.mask_wrap_addr_pre[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_aw_inst.mask_wrap_addr_pre[1] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.mask_wrap_addr_pre[2] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.mask_wrap_addr_pre[3] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.mask_wrap_addr_pre[4] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.mask_wrap_addr_pre[5] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_aw_inst.mask_wrap_addr_pre[2] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_ALEN[6] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_ALEN[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_ALEN[5] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_ALEN[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.SLAVE_ALEN[6] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.SLAVE_ALEN[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.SLAVE_ALEN[5] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.SLAVE_ALEN[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.addr_fifo[1] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.addr_fifo[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.SLAVE_ALEN[7] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.addr_fifo[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.addr_fifo[1] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.addr_fifo[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_ALEN[7] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.addr_fifo[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.holdDat[29] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.holdDat[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.holdDat[28] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.holdDat[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.holdDat[29] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.holdDat[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.holdDat[28] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.holdDat[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sDat[29] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sDat[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sDat[28] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sDat[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sDat[29] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sDat[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sDat[28] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sDat[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM data_fifo.genblk1\[1\]\.ram.mem[35:0] (in view: work.caxi4interconnect_DWC_UpConv_WChannel_Z5(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM data_fifo.genblk1\[0\]\.ram.mem[35:0] (in view: work.caxi4interconnect_DWC_UpConv_WChannel_Z5(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_wchan_hold_reg.v":81:2:81:7|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_WChan.caxi4interconnect_DWC_UpConv_WChan_Hold_Reg.size_shifted_out[0] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_WChan.caxi4interconnect_DWC_UpConv_WChan_Hold_Reg.mask_addr_out_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_wchan_hold_reg.v":81:2:81:7|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_WChan.caxi4interconnect_DWC_UpConv_WChan_Hold_Reg.size_shifted_out[5] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_WChan.caxi4interconnect_DWC_UpConv_WChan_Hold_Reg.size_shifted_out[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM genblk1\[0\]\.ram.mem[4:0] (in view: work.caxi4interconnect_FIFO_4s_25s_25s_3s_0s_4s_2s_0s_3s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_wchan_readdatafifoctrl.v":332:3:332:8|Found counter in view:work.caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl_3s_2s_0_1(verilog) instance slave_beat_cnt[7:0] 
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM genblk1\[0\]\.ram.mem[7:0] (in view: work.caxi4interconnect_FIFO_4s_8s_8s_3s_1s_4s_2s_1s_3s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM genblk1\.data_fifo.ram.mem[64:0] (in view: work.caxi4interconnect_DWC_UpConv_RChannel_1s_1s_16s_4s_64s_32s_0_1s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcrchan_ctrl.v":89:2:89:7|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_RChan.genblk1.preCalcRChan_Ctrl.rd_src_shift_pre_1[3] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_RChan.genblk1.preCalcRChan_Ctrl.rd_src_shift_pre_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcrchan_ctrl.v":89:2:89:7|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_RChan.genblk1.preCalcRChan_Ctrl.mask_pre[5] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_RChan.genblk1.preCalcRChan_Ctrl.mask_pre[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcrchan_ctrl.v":89:2:89:7|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_RChan.genblk1.preCalcRChan_Ctrl.mask_pre[4] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_RChan.genblk1.preCalcRChan_Ctrl.mask_pre[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM genblk1\[0\]\.ram.mem[15:0] (in view: work.caxi4interconnect_FIFO_4s_26s_26s_3s_1s_4s_2s_1s_3s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_rchan_ctrl.v":201:3:201:8|Found counter in view:work.caxi4interconnect_DWC_UpConv_RChan_Ctrl_64s_32s_1s(verilog) instance rd_src_cnt[5:0] 
+@N: MF179 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_rchan_ctrl.v":398:38:398:110|Found 9 by 9 bit equality operator ('==') un8_last_next (in view: work.caxi4interconnect_DWC_UpConv_RChan_Ctrl_64s_32s_1s(verilog))
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.mReady because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.sValid because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM ram.mem[42:0] (in view: work.caxi4interconnect_CDC_FIFO_8s_65s_0s_3s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM ram.mem[72:0] (in view: work.caxi4interconnect_CDC_FIFO_8s_74s_0s_3s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM ram.mem[42:0] (in view: work.caxi4interconnect_CDC_FIFO_8s_65s_0s_3s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\ram_block.v":65:7:65:12|RAM ram.mem[65:0] (in view: work.caxi4interconnect_CDC_FIFO_8s_70s_0s_3s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine sdram_sys_top.sdram_lb.axi_if_0.rd_data_asm_fifo_gen\.rd_data_asm_fifo.util_fifo_core_inst.gen_lat1_to_lat0\.util_lat1_to_lat0.rd_addr[2:0] (in view: work.DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_state[4:0] (in view: work.TRN_CLK_2s_1s_0s_1s_2s_3s_4s(verilog))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0011 -> 01000
+   0100 -> 10000
+Encoding state machine current_state[15:0] (in view: work.trn_bclksclk(verilog))
+original code -> new code
+   00000 -> 0000000000000001
+   00001 -> 0000000000000010
+   00010 -> 0000000000000100
+   00011 -> 0000000000001000
+   00100 -> 0000000000010000
+   00101 -> 0000000000100000
+   00111 -> 0000000001000000
+   01000 -> 0000000010000000
+   01001 -> 0000000100000000
+   01010 -> 0000001000000000
+   01011 -> 0000010000000000
+   01100 -> 0000100000000000
+   01101 -> 0001000000000000
+   01110 -> 0010000000000000
+   01111 -> 0100000000000000
+   10000 -> 1000000000000000
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_bclksclk.v":274:0:274:5|Found counter in view:work.trn_bclksclk(verilog) instance dly_cnt[4:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_bclksclk.v":141:0:141:5|Found counter in view:work.trn_bclksclk(verilog) instance transition_check_counter[9:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_bclksclk.v":238:0:238:5|Found counter in view:work.trn_bclksclk(verilog) instance vcophsel_bclk[6:0] 
+Encoding state machine current_state[28:0] (in view: work.trn_cmd_addr(verilog))
+original code -> new code
+   00000000000000000000000000001 -> 00000000000000000000000000001
+   00000000000000000000000000010 -> 00000000000000000000000000010
+   00000000000000000000000000100 -> 00000000000000000000000000100
+   00000000000000000000000001000 -> 00000000000000000000000001000
+   00000000000000000000000010000 -> 00000000000000000000000010000
+   00000000000000000000000100000 -> 00000000000000000000000100000
+   00000000000000000000001000000 -> 00000000000000000000001000000
+   00000000000000000000010000000 -> 00000000000000000000010000000
+   00000000000000000000100000000 -> 00000000000000000000100000000
+   00000000000000000001000000000 -> 00000000000000000001000000000
+   00000000000000000010000000000 -> 00000000000000000010000000000
+   00000000000000000100000000000 -> 00000000000000000100000000000
+   00000000000000001000000000000 -> 00000000000000001000000000000
+   00000000000000010000000000000 -> 00000000000000010000000000000
+   00000000000000100000000000000 -> 00000000000000100000000000000
+   00000000000001000000000000000 -> 00000000000001000000000000000
+   00000000000010000000000000000 -> 00000000000010000000000000000
+   00000000000100000000000000000 -> 00000000000100000000000000000
+   00000000001000000000000000000 -> 00000000001000000000000000000
+   00000000010000000000000000000 -> 00000000010000000000000000000
+   00000000100000000000000000000 -> 00000000100000000000000000000
+   00000001000000000000000000000 -> 00000001000000000000000000000
+   00000010000000000000000000000 -> 00000010000000000000000000000
+   00000100000000000000000000000 -> 00000100000000000000000000000
+   00001000000000000000000000000 -> 00001000000000000000000000000
+   00010000000000000000000000000 -> 00010000000000000000000000000
+   00100000000000000000000000000 -> 00100000000000000000000000000
+   01000000000000000000000000000 -> 01000000000000000000000000000
+   10000000000000000000000000000 -> 10000000000000000000000000000
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_cmdaddr.v":541:0:541:5|Found counter in view:work.trn_cmd_addr(verilog) instance tap_count_cmd[7:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_cmdaddr.v":509:0:509:5|Found counter in view:work.trn_cmd_addr(verilog) instance dly_cnt[9:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_cmdaddr.v":541:0:541:5|Found counter in view:work.trn_cmd_addr(verilog) instance tap_count_refclk[7:0] 
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_cmdaddr.v":696:0:696:5|RAM outdly[7:0] (in view: work.trn_cmd_addr(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_cmdaddr.v":696:0:696:5|RAM indly[7:0] (in view: work.trn_cmd_addr(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_dqsw.v":368:0:368:5|Found counter in view:work.trn_dqsw_top(verilog) instance tap_count_dqsw[7:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_dqsw.v":368:0:368:5|Found counter in view:work.trn_dqsw_top(verilog) instance tap_count_dqsw270[7:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_dqsw.v":368:0:368:5|Found counter in view:work.trn_dqsw_top(verilog) instance tap_offset_move_count[7:0] 
+Encoding state machine current_state[16:0] (in view: work.WRLVL_BOT_top(verilog))
+original code -> new code
+   0000000000000000000 -> 00000000000000001
+   0000000000000000010 -> 00000000000000010
+   0000000000000001000 -> 00000000000000100
+   0000000000000010000 -> 00000000000001000
+   0000000000000100000 -> 00000000000010000
+   0000000000001000000 -> 00000000000100000
+   0000000000010000000 -> 00000000001000000
+   0000000000100000000 -> 00000000010000000
+   0000000001000000000 -> 00000000100000000
+   0000000010000000000 -> 00000001000000000
+   0000000100000000000 -> 00000010000000000
+   0000001000000000000 -> 00000100000000000
+   0000010000000000000 -> 00001000000000000
+   0000100000000000000 -> 00010000000000000
+   0001000000000000000 -> 00100000000000000
+   0010000000000000000 -> 01000000000000000
+   1000000000000000000 -> 10000000000000000
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\wrlvl_bot.v":194:0:194:5|Found counter in view:work.WRLVL_BOT_top(verilog) instance tap_count[6:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Found counter in view:work.IOG_IF_2s_18s_0_1(verilog) instance APB_IOG_CTRL_SM.delay_cnt[7:0] 
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Register bit APB_IOG_CTRL_SM.csr_reg[1] (in view view:work.IOG_IF_2s_18s_0_1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Register bit APB_IOG_CTRL_SM.csr_reg[0] (in view view:work.IOG_IF_2s_18s_0_1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Register bit APB_IOG_CTRL_SM.apb_iog_on (in view view:work.IOG_IF_2s_18s_0_1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Removing sequential instance APB_IOG_CTRL_SM.csr_reg[7] (in view: work.IOG_IF_2s_18s_0_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Removing sequential instance APB_IOG_CTRL_SM.oor_detected (in view: work.IOG_IF_2s_18s_0_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Removing sequential instance APB_IOG_CTRL_SM.reset_wr_regs (in view: work.IOG_IF_2s_18s_0_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Removing sequential instance APB_IOG_CTRL_SM.csr_reg[2] (in view: work.IOG_IF_2s_18s_0_1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Removing sequential instance APB_IOG_CTRL_SM.csr_reg[3] (in view: work.IOG_IF_2s_18s_0_1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Removing sequential instance APB_IOG_CTRL_SM.csr_reg[4] (in view: work.IOG_IF_2s_18s_0_1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Removing sequential instance APB_IOG_CTRL_SM.csr_reg[5] (in view: work.IOG_IF_2s_18s_0_1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":270:3:270:8|Removing sequential instance APB_IOG_CTRL_SM.csr_reg[6] (in view: work.IOG_IF_2s_18s_0_1(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.iog_lane_sel[0] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.direction. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.iog_lane_sel[3] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.direction. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.iog_lane_sel[2] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.direction. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.iog_lane_sel[1] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.APB_IOG_CTRL_SM.direction. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[16] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[15] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[14] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[13] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[12] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[11] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.delay_line_sel_rd[1] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.delay_line_sel_rd[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[7] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[6] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[5] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[4] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[3] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[2] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[4] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[6] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[7] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[5] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[3] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[2] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[1] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[12] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[14] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[16] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[15] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[13] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[11] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[9] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN115 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":411:28:411:47|Removing instance APB_IOG_CTRL_SM.un2_iog_lane_sel_r_1 (in view: work.IOG_IF_2s_18s_0_1(verilog)) because it does not drive other instances.
+Encoding state machine visual_trn_compl_current[9:0] (in view: work.TRN_COMPLETE_Z70(verilog))
+original code -> new code
+   0000 -> 0000000001
+   0001 -> 0000000010
+   0010 -> 0000000100
+   0011 -> 0000001000
+   0100 -> 0000010000
+   0101 -> 0000100000
+   0110 -> 0001000000
+   0111 -> 0010000000
+   1000 -> 0100000000
+   1001 -> 1000000000
+@W: MO160 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_complete.v":236:3:236:8|Register bit visual_trn_compl_current[0] (in view view:work.TRN_COMPLETE_Z70(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_complete.v":236:3:236:8|Removing sequential instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.TRN_COMPLETE.do_train_vref because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.TRN_COMPLETE.visual_trn_compl_current[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_complete.v":236:3:236:8|Removing sequential instance visual_trn_compl_current[7] (in view: work.TRN_COMPLETE_Z70(verilog)) because it does not drive other instances.
+Encoding state machine current_state[6:0] (in view: work.ddr4_vref(verilog))
+original code -> new code
+   0000 -> 0000001
+   0001 -> 0000010
+   0010 -> 0000100
+   0011 -> 0001000
+   0100 -> 0010000
+   0101 -> 0100000
+   0110 -> 1000000
+@W: MO129 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ddr4_vref.v":179:0:179:5|Sequential instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.ddr4_vref_trainer.current_state[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ddr4_vref.v":179:0:179:5|Sequential instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.ddr4_vref_trainer.current_state[4] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ddr4_vref.v":179:0:179:5|Removing sequential instance current_state[0] (in view: work.ddr4_vref(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ddr4_vref.v":179:0:179:5|Removing sequential instance current_state[1] (in view: work.ddr4_vref(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ddr4_vref.v":179:0:179:5|Removing sequential instance current_state[3] (in view: work.ddr4_vref(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ddr4_vref.v":179:0:179:5|Removing sequential instance current_state[5] (in view: work.ddr4_vref(verilog)) because it does not drive other instances.
+Encoding state machine current_state[13:0] (in view: work.write_callibrator_Z71(verilog))
+original code -> new code
+   0000000 -> 00000000000001
+   0000001 -> 00000000000010
+   0000010 -> 00000000000100
+   0000011 -> 00000000001000
+   0000100 -> 00000000010000
+   0000101 -> 00000000100000
+   0000110 -> 00000001000000
+   0000111 -> 00000010000000
+   0001000 -> 00000100000000
+   0001001 -> 00001000000000
+   0001010 -> 00010000000000
+   0001011 -> 00100000000000
+   0001111 -> 01000000000000
+   0010000 -> 10000000000000
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\write_callibrator.v":449:0:449:5|Found counter in view:work.write_callibrator_Z71(verilog) instance write_counter[7:0] 
+@N: MF179 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\write_callibrator.v":484:10:484:73|Found 16 by 16 bit equality operator ('==') data_register\.data_match31_0 (in view: work.write_callibrator_Z71(verilog))
+@N: MF179 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\write_callibrator.v":484:10:484:73|Found 16 by 16 bit equality operator ('==') data_register\.data_match31_1 (in view: work.write_callibrator_Z71(verilog))
+@N: MF179 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\write_callibrator.v":484:10:484:73|Found 16 by 16 bit equality operator ('==') data_register\.data_match31_2 (in view: work.write_callibrator_Z71(verilog))
+@N: MF179 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\write_callibrator.v":484:10:484:73|Found 16 by 16 bit equality operator ('==') data_register\.data_match31_3 (in view: work.write_callibrator_Z71(verilog))
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\ddr_init_iterator.v":34:0:34:5|Found counter in view:work.ddr_init_iterator(verilog) instance timeout_counter[22:0] 
+Encoding state machine MIV_RV32_C1_0.u_opsrv_0.gen_opsrv_debug\.u_opsrv_debug_unit_0.MIV_opsrv_debug_transport_module_jtag_0.gen_shift_register_active_high\.gen_shift_register_active_low\.dtmcs_dmistat[3:0] (in view: work.MIV_RV32_C1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\microsemi\miv\miv_rv32\3.0.100\opsrv_merged\miv_rv32_opsrv_merged.v":12852:12:12852:20|There are no possible illegal states for state machine MIV_RV32_C1_0.u_opsrv_0.gen_opsrv_debug\.u_opsrv_debug_unit_0.MIV_opsrv_debug_transport_module_jtag_0.gen_shift_register_active_high\.gen_shift_register_active_low\.dtmcs_dmistat[3:0] (in view: work.MIV_RV32_C1(verilog)); safe FSM implementation is not required.
+Encoding state machine MIV_RV32_C1_0.u_opsrv_0.gen_opsrv_debug\.u_opsrv_debug_unit_0.MIV_opsrv_debug_transport_module_jtag_0.gen_current_state_register_active_high\.gen_current_state_register_active_low\.currTapState[15:0] (in view: work.MIV_RV32_C1(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[8:0] (in view: CORESPI_LIB.spi_fifo_8s_32s_5_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found startup values on RAM instance fifo_mem_q[8:0] (in view: CORESPI_LIB.spi_fifo_8s_32s_5_1(verilog)).
+@N: FX702 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found startup values on RAM instance fifo_mem_q[8:0]
+@W: FX107 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[8:0] (in view: CORESPI_LIB.spi_fifo_8s_32s_5_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found startup values on RAM instance fifo_mem_q[8:0] (in view: CORESPI_LIB.spi_fifo_8s_32s_5_0(verilog)).
+@N: FX702 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found startup values on RAM instance fifo_mem_q[8:0]
+Encoding state machine mtx_state[5:0] (in view: CORESPI_LIB.spi_chanctrl_Z83(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0111 -> 001000
+   1000 -> 010000
+   1001 -> 100000
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z83(verilog) instance stxs_bitcnt[4:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z83(verilog) instance spi_clk_count[7:0] 
+@N: MO231 :"c:\libero_projects\pf_mi_v_tut\component\work\uart_apb\uart_apb_0\rtl\vlog\core_obfuscated\clock_gen.v":1011:0:1011:5|Found counter in view:work.UART_apb_UART_apb_0_Clock_gen_0s_0s(verilog) instance genblk1\.CUARTO0[12:0] 
+Encoding state machine CUARTlI0l[5:0] (in view: work.UART_apb_UART_apb_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine CUARTll0[3:0] (in view: work.UART_apb_UART_apb_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\libero_projects\pf_mi_v_tut\component\work\uart_apb\uart_apb_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.UART_apb_UART_apb_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\work\uart_apb\uart_apb_0\rtl\vlog\core_obfuscated\rx_async.v":754:0:754:5|Removing instance UART_apb_0.UART_apb_0.CUARTlOlI.CUARTO01.CUARTIOll[2] because it is equivalent to instance UART_apb_0.UART_apb_0.CUARTlOlI.CUARTO01.CUARTIOll[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 277MB peak: 323MB)
+
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[1] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[2] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[3] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[4] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[2] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[1] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[3] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[4] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.last_beat_wrap[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.addr_fifo[2] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_AWChan.SLAVE_AADDR[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.addr_fifo[2] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_AADDR[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.addr_fifo[3] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_AADDR[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.addr_fifo[4] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_AADDR[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.addr_fifo[5] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop[0].mstrconv.mstrDWC.genblk1.MstUpConv.DWC_ARChan.SLAVE_AADDR[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_ARChan.addr_fifo[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance mstrDWC.genblk1\.MstUpConv.DWC_AWChan.addr_fifo[0] (in view: work.caxi4interconnect_MasterConvertor_Z8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance rgsl.genblk2\.arrs.sDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance rgsl.genblk1\.awrs.sDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance rgsl.genblk2\.arrs.holdDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance rgsl.genblk1\.awrs.holdDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z12(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\apb_iog_ctrl_sm.v":234:3:234:8|Removing sequential instance LEVELLING.IOG_IF.APB_IOG_CTRL_SM.direction (in view: work.TIP_CTRL_BLK_Z72(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\trn_complete.v":236:3:236:8|Removing sequential instance LEVELLING.TRN_COMPLETE.visual_trn_compl_current[8] (in view: work.TIP_CTRL_BLK_Z72(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 291MB peak: 323MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":198:0:198:5|Removing sequential instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.out_of_range_reg[9] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.sDat[18] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.sDat[18] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.sDat[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_AWChan.last_beat_wrap[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_ARChan.last_beat_wrap[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.holdDat[18] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.holdDat[18] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.holdDat[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_AWChan.to_boundary_master_reg[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":396:3:396:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_ARChan.to_boundary_master_reg[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_AWChan.SLAVE_ABURST[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_ARChan.SLAVE_ABURST[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_aw_inst.MASTER_ABURST_out[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_precalcachannel.v":115:2:115:7|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_UpConv_preCalcAChannel_ar_inst.MASTER_ABURST_out[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.holdDat[2] (in view: work.top(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.holdDat[29] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.holdDat[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.holdDat[28] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.holdDat[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.holdDat[29] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.holdDat[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.holdDat[28] because it is equivalent to instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.holdDat[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[10] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.direction_int[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\iog_if.v":205:0:205:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[9] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.IOG_IF.load_int[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\coreddr_tip_int.v":1051:0:1051:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DELAY_LINE_SEL_RD[1] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DELAY_LINE_SEL_RD[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\coreddr_tip_int.v":1051:0:1051:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DIRECTION[11] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DIRECTION[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\coreddr_tip_int.v":1051:0:1051:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DIRECTION[12] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DIRECTION[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreddr_tip\2.1.101\rtl\vlog\core\coreddr_tip_int.v":1051:0:1051:5|Removing instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DIRECTION[13] because it is equivalent to instance DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.DIRECTION[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log C:\Libero_Projects\PF_Mi_V_Tut\synthesis\top\top.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_wchan_writedatafifoctrl.v":157:1:157:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_WChan.WriteDataCtrl.hold_data_valid_reg (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.sDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.holdDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.sDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.holdDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk1\.awrs.holdDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk1\.awrs.sDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk2\.arrs.holdDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk2\.arrs.sDat[30] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 284MB peak: 323MB)
+
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_ARChan.SLAVE_ASIZE[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_ARChan.SLAVE_ASIZE[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_ARChan.SLAVE_AADDR[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.sDat[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.sDat[31] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.holdDat[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.holdDat[31] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.sDat[31] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.sDat[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_AWChan.SLAVE_ASIZE[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_AWChan.SLAVE_ASIZE[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\dwc_upconv_achannel.v":333:3:333:8|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_AWChan.SLAVE_AADDR[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.holdDat[31] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.holdDat[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk1\.awrs.holdDat[31] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk1\.awrs.holdDat[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk1\.awrs.sDat[31] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk1\.awrs.sDat[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\libero_projects\pf_mi_v_tut\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance Axi4Interconnect_0.Axi4Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk2\.arrs.holdDat[22] (in view: work.top(verilog)) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\Libero_Projects\PF_Mi_V_Tut\synthesis\top\top.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 284MB peak: 323MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 284MB peak: 323MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 284MB peak: 323MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 284MB peak: 323MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:23s; Memory used current: 313MB peak: 323MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:24s		   -32.18ns		4120 /      3792
+   2		0h:00m:24s		   -32.18ns		4083 /      3792
+
+   3		0h:00m:24s		   -32.18ns		4083 /      3792
+
+
+   4		0h:00m:24s		   -32.18ns		4083 /      3792
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 315MB peak: 323MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 316MB peak: 323MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file C:\Libero_Projects\PF_Mi_V_Tut\synthesis\top\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name     Status       Reason        
+------------------------------------
+top      Remapped     Design changed
+====================================
+
+Process took 0h:00m:28s realtime, 0h:00m:27s cputime
+# Wed Oct 12 15:16:42 2022
+
+###########################################################]

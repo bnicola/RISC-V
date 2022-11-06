@@ -1,0 +1,76 @@
+Jitter Estimation Report
+========================
+
+Date           : Wed Oct 19 20:41:18 2022
+Libero version : 2022.2.0.10
+Design         : top
+Family         : PolarFire
+Die            : MPF300TS
+Speed grade    : -1
+Data state     : Production
+
+
+System Jitter Calculation
+-------------------------
+
+Worst aggressor based on load:    CCC_C0_0/CCC_C0_0/pll_inst_0/OUT0
+System jitter (worst aggressor):  0.012 ns
+
+
+Jitter Calculation per Clock Domain
+-----------------------------------
+
+Clock: TCK
+
+ (1) System jitter (worst aggressor):              0.012 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.012 ns
+
+
+Clock: DDR3_0_0/CCC_0/pll_inst_0/OUT3
+
+     HS_IO_CLK jitter:                             0.150 ns
+
+     Resulting clock jitter:                       0.150 ns
+
+
+Clock: DDR3_0_0/CCC_0/pll_inst_0/OUT2
+
+     HS_IO_CLK jitter:                             0.150 ns
+
+     Resulting clock jitter:                       0.150 ns
+
+
+Clock: DDR3_0_0/CCC_0/pll_inst_0/OUT1
+
+ (1) System jitter (worst aggressor):              0.012 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: DDR3_0_0/CCC_0/pll_inst_0/OUT0
+
+ (1) System jitter (worst aggressor):              0.012 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: CCC_C0_0/CCC_C0_0/pll_inst_0/OUT0
+
+ (1) System jitter (worst aggressor):              0.012 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: REF_CLK_0
+
+ (1) System jitter (worst aggressor):              0.012 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.012 ns
+
+

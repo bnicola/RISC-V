@@ -1,0 +1,207 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+Date: Wed Oct 19 20:37:12 2022
+
+Device Selection
++--------------------------------------------+-------------+
+| Family                                     | PolarFire   |
+| Device                                     | MPF300TS    |
+| Package                                    | FCG1152     |
+| Speed Grade                                | -1          |
+| Core Voltage                               | 1.0V        |
+| Part Range                                 | IND         |
+| Default I/O technology                     | LVCMOS 1.8V |
+| FPGA Hardware Breakpoint Auto Instantation | Off         |
++--------------------------------------------+-------------+
+
+Source Files
++---------+-------------------------------------------------+
+| Topcell | top                                             |
+| Format  | Verilog                                         |
+| Source  | C:\Libero_Projects\PF_Mi_V_Tut\synthesis\top.vm |
++---------+-------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+-------+--------+------------+
+| Type                      | Used  | Total  | Percentage |
++---------------------------+-------+--------+------------+
+| 4LUT                      | 23332 | 299544 | 7.79       |
+| DFF                       | 16843 | 299544 | 5.62       |
+| I/O Register              | 0     | 1536   | 0.00       |
+| User I/O                  | 66    | 512    | 12.89      |
+| -- Single-ended I/O       | 60    | 512    | 11.72      |
+| -- Differential I/O Pairs | 3     | 256    | 1.17       |
+| uSRAM                     | 80    | 2772   | 2.89       |
+| LSRAM                     | 50    | 952    | 5.25       |
+| Math                      | 0     | 924    | 0.00       |
+| H-Chip Global             | 9     | 48     | 18.75      |
+| PLL                       | 2     | 8      | 25.00      |
+| DLL                       | 1     | 8      | 12.50      |
+| BANKCTRL                  | 1     | 7      | 14.29      |
+| BANKEN                    | 1     | 7      | 14.29      |
+| CRN_INT                   | 1     | 24     | 4.17       |
+| UJTAG                     | 1     | 1      | 100.00     |
+| INIT                      | 1     | 1      | 100.00     |
+| Transceiver Lanes         | 0     | 16     | 0.00       |
+| Transceiver PCIe          | 0     | 2      | 0.00       |
+| ICB_CLKINT                | 3     | 72     | 4.17       |
++---------------------------+-------+--------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+-------+-------+
+| Type                  | 4LUT  | DFF   |
++-----------------------+-------+-------+
+| Fabric Logic          | 20572 | 14083 |
+| uSRAM Interface Logic | 960   | 960   |
+| LSRAM Interface Logic | 1800  | 1800  |
+| Math Interface Logic  | 0     | 0     |
+| Total Used            | 23332 | 16843 |
++-----------------------+-------+-------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 3      | 1    |
+| 4      | 1    |
+| 6      | 7    |
+| 7      | 25   |
+| 8      | 55   |
+| 9      | 89   |
+| 10     | 17   |
+| 11     | 8    |
+| 12     | 5    |
+| 13     | 9    |
+| 14     | 5    |
+| 15     | 10   |
+| 17     | 4    |
+| 19     | 2    |
+| 20     | 1    |
+| 21     | 3    |
+| 23     | 1    |
+| 27     | 1    |
+| 30     | 1    |
+| 31     | 1    |
+| 32     | 6    |
+| 33     | 10   |
+| 64     | 2    |
+| 65     | 2    |
+| Total  | 266  |
++--------+------+
+
+Detailed 4LUT Groups Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 308  |
+| 5      | 7    |
+| 22     | 3    |
+| Total  | 318  |
++--------+------+
+
+I/O Function
++--------------------------------------+--------------+-------------+-----------------+
+| Type                                 | w/o register | w/ register | w/ DDR register |
++--------------------------------------+--------------+-------------+-----------------+
+| Input I/O                            | 4            | 0           | 0               |
+| Output I/O                           | 40           | 0           | 0               |
+| Bidirectional I/O                    | 16           | 0           | 0               |
+| Differential Input I/O Pairs         | 0            | 0           | 0               |
+| Differential Output I/O Pairs        | 1            | 0           | 0               |
+| Differential Bidirectional I/O Pairs | 2            | 0           | 0               |
++--------------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                             |
++--------+---------+--------------------------------------------------------------------------------------------------+
+| 9874   | INT_NET | Net   : DDR3_0_0_SYS_CLK                                                                         |
+|        |         | Driver: DDR3_0_0/CCC_0/clkint_4/U0_RGB1                                                          |
+|        |         | Source: NETLIST                                                                                  |
+| 4771   | INT_NET | Net   : DDR3_0_0/reset_n_int_arst                                                                |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0_rep_RNINRV2/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                  |
+| 4542   | INT_NET | Net   : CCC_C0_0_OUT0_FABCLK_0                                                                   |
+|        |         | Driver: CCC_C0_0/CCC_C0_0/clkint_0/U0_RGB1                                                       |
+|        |         | Source: NETLIST                                                                                  |
+| 4025   | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_net_953                                                     |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_2/MSC_i_3/MSC_i_4/MSC_i_5/Ib1A09tuj4226Arj/U0_RGB1        |
+|        |         | Source: NETLIST                                                                                  |
+| 1462   | INT_NET | Net   : Axi4Interconnect_0/Axi4Interconnect_0/sysReset                                           |
+|        |         | Driver: Axi4Interconnect_0/Axi4Interconnect_0/arst_aclk_sync/sysReset_RNIULU4/U0_RGB1            |
+|        |         | Source: NETLIST                                                                                  |
+| 1096   | INT_NET | Net   : dff_arst                                                                                 |
+|        |         | Driver: reset_syn_0_0/reset_syn_0_0/dff_15_rep_RNIB6IB/U0_RGB1                                   |
+|        |         | Source: NETLIST                                                                                  |
+| 209    | INT_NET | Net   : COREJTAGDEBUG_0_0_TGT_TCK_0_i                                                            |
+|        |         | Driver: COREJTAGDEBUG_0_0/COREJTAGDEBUG_0_0/genblk3.genblk1.TGT_TCK_GLB/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                                  |
+| 18     | INT_NET | Net   : COREJTAGDEBUG_0_0/COREJTAGDEBUG_0_0/iUDRCK                                               |
+|        |         | Driver: COREJTAGDEBUG_0_0/COREJTAGDEBUG_0_0/iUDRCK_inferred_clock_RNIVJK7/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                  |
+| 1      | INT_NET | Net   : DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD_Y                                                       |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/CLKINT_CMD/U0_RGB1                                                 |
+|        |         | Source: NETLIST                                                                                  |
++--------+---------+--------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                    |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| 346    | INT_NET | Net   : reset_syn_0_0_reset_syn_0_0_dff                                                                                                 |
+|        |         | Driver: reset_syn_0_0/reset_syn_0_0/dff_15                                                                                              |
+| 288    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_101/MSC_i_102/MSC_i_116/NxC4mH0p48s[1]                                           |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_101/MSC_i_102/MSC_i_116/IxC4mH0p48s[1]                                           |
+| 277    | INT_NET | Net   : MIV_RV32_C1_0/MIV_RV32_C1_0/u_opsrv_0/debug_mode_i                                                                              |
+|        |         | Driver: MIV_RV32_C1_0/MIV_RV32_C1_0/u_opsrv_0/u_core_0/u_expipe_0/u_csr_privarch_0/gen_debug.debug_mode                                 |
+| 270    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/NbrrrJv5fykeCh3c[30]                                                                                   |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_2/Ic0tJi2vfLDLKCv5HI5L4rd                                                                        |
+| 256    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_11/MSC_i_12/MSC_i_27/NxC4mH0p48s[1]                                              |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_11/MSC_i_12/MSC_i_27/IxC4mH0p48s[1]                                              |
+| 239    | INT_NET | Net   : DDR3_0_0/DDRPHY_BLK_0_CAL_SELECT                                                                                                |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/u_write_callibrator/select                                  |
+| 195    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_net_2163                                                                                   |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/Ifee1qspzycshb414I7i                                                                   |
+| 191    | INT_NET | Net   : DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/write_callibration_offset[4]                                |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/u_write_callibrator/genblk2[1].write_callibration_offset[4] |
+| 191    | INT_NET | Net   : DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/write_callibration_offset[1]                                |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/u_write_callibrator/genblk2[0].write_callibration_offset[1] |
+| 189    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/NxC4mH0p48s[1]                                                                         |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_79/MSC_i_80/MSC_i_90/IxC4mH0p48s[1]                                              |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                    |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| 346    | INT_NET | Net   : reset_syn_0_0_reset_syn_0_0_dff                                                                                                 |
+|        |         | Driver: reset_syn_0_0/reset_syn_0_0/dff_15                                                                                              |
+| 288    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_101/MSC_i_102/MSC_i_116/NxC4mH0p48s[1]                                           |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_101/MSC_i_102/MSC_i_116/IxC4mH0p48s[1]                                           |
+| 277    | INT_NET | Net   : MIV_RV32_C1_0/MIV_RV32_C1_0/u_opsrv_0/debug_mode_i                                                                              |
+|        |         | Driver: MIV_RV32_C1_0/MIV_RV32_C1_0/u_opsrv_0/u_core_0/u_expipe_0/u_csr_privarch_0/gen_debug.debug_mode                                 |
+| 270    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/NbrrrJv5fykeCh3c[30]                                                                                   |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_2/Ic0tJi2vfLDLKCv5HI5L4rd                                                                        |
+| 256    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_11/MSC_i_12/MSC_i_27/NxC4mH0p48s[1]                                              |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_11/MSC_i_12/MSC_i_27/IxC4mH0p48s[1]                                              |
+| 239    | INT_NET | Net   : DDR3_0_0/DDRPHY_BLK_0_CAL_SELECT                                                                                                |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/u_write_callibrator/select                                  |
+| 195    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_net_2163                                                                                   |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/Ifee1qspzycshb414I7i                                                                   |
+| 191    | INT_NET | Net   : DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/write_callibration_offset[4]                                |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/u_write_callibrator/genblk2[1].write_callibration_offset[4] |
+| 191    | INT_NET | Net   : DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/write_callibration_offset[1]                                |
+|        |         | Driver: DDR3_0_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/TIP_CTRL_BLK/u_write_callibrator/genblk2[0].write_callibration_offset[1] |
+| 189    | INT_NET | Net   : DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/NxC4mH0p48s[1]                                                                         |
+|        |         | Driver: DDR3_0_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_7/MSC_i_79/MSC_i_80/MSC_i_90/IxC4mH0p48s[1]                                              |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------------------------+
+

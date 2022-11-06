@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Sun Oct  9 21:14:31 2022
+Project   :  C:\Libero_Projects\PF_Mi_V_Tut
+Component :  reset_syn_1
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/reset_syn_1/reset_syn_1_0/core/corereset_pf.v
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/reset_syn_1/reset_syn_1.v
+
+Stimulus files for all Simulation tools:
+    C:/Libero_Projects/PF_Mi_V_Tut/component/work/reset_syn_1/reset_syn_1_0/test/corereset_pf_tb.v
+

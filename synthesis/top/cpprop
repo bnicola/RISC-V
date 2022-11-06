@@ -1,0 +1,9 @@
+n work top verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 27.5312;
+av .compile_point_starttime_stamp "Wed Oct 12 15:16:14 2022";
+av .compile_point_endtime_stamp "Wed Oct 12 15:16:42 2022";
+av .compile_point_realtime_used 28.18;

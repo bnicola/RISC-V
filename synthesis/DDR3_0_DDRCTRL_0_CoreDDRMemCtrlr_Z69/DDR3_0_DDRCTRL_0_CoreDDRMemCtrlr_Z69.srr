@@ -1,0 +1,937 @@
+# Tue Oct 11 20:04:38 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: IA4
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 138MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 138MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 138MB)
+
+@W: BN309 |One or more non-fatal issues found in constraints; Please run Constraint Check for analysis
+
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 242MB peak: 242MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 247MB peak: 247MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 247MB peak: 247MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 234MB peak: 252MB)
+
+
+Begin compile point sub-process log
+
+		 Mapper or mapping options changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 234MB peak: 252MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_work_DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69_verilog_inst (in view: work.top(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69_verilog_0_inst (in view: work.top(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69_verilog_0_0_inst (in view: work.top(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69_verilog_0_0_0_inst (in view: work.top(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69_verilog_0_0_0_0_inst (in view: work.top(verilog)) because it does not drive other instances.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 226MB peak: 252MB)
+
+Encoding state machine DDR3_0_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.u_write_callibrator.current_state[13:0] (in view: work.top(verilog))
+original code -> new code
+   0000000 -> 00000000000001
+   0000001 -> 00000000000010
+   0000010 -> 00000000000100
+   0000011 -> 00000000001000
+   0000100 -> 00000000010000
+   0000101 -> 00000000100000
+   0000110 -> 00000001000000
+   0000111 -> 00000010000000
+   0001000 -> 00000100000000
+   0001001 -> 00001000000000
+   0001010 -> 00010000000000
+   0001011 -> 00100000000000
+   0001111 -> 01000000000000
+   0010000 -> 10000000000000
+Encoding state machine state[78:0] (in view: work.C0_ddr4_nwl_phy_init_Z15(verilog))
+original code -> new code
+   0000000 -> 0000000
+   0000001 -> 0000001
+   0000010 -> 0000011
+   0000011 -> 0000010
+   0000100 -> 0000110
+   0000101 -> 0000111
+   0000110 -> 0000101
+   0000111 -> 0000100
+   0001000 -> 0001100
+   0001001 -> 0001101
+   0001010 -> 0001111
+   0001011 -> 0001110
+   0001100 -> 0001010
+   0001101 -> 0001011
+   0001110 -> 0001001
+   0001111 -> 0001000
+   0010000 -> 0011000
+   0010001 -> 0011001
+   0010010 -> 0011011
+   0010011 -> 0011010
+   0010100 -> 0011110
+   0010101 -> 0011111
+   0010110 -> 0011101
+   0010111 -> 0011100
+   0011000 -> 0010100
+   0011001 -> 0010101
+   0011010 -> 0010111
+   0011011 -> 0010110
+   0011100 -> 0010010
+   0011101 -> 0010011
+   0011110 -> 0010001
+   0011111 -> 0010000
+   0100000 -> 0110000
+   0100001 -> 0110001
+   0100010 -> 0110011
+   0100011 -> 0110010
+   0100100 -> 0110110
+   0100101 -> 0110111
+   0100110 -> 0110101
+   0100111 -> 0110100
+   0101000 -> 0111100
+   0101001 -> 0111101
+   0101010 -> 0111111
+   0101011 -> 0111110
+   0101100 -> 0111010
+   0101101 -> 0111011
+   0101110 -> 0111001
+   0101111 -> 0111000
+   0110000 -> 0101000
+   0110001 -> 0101001
+   0110010 -> 0101011
+   0110011 -> 0101010
+   0110100 -> 0101110
+   0110101 -> 0101111
+   0110110 -> 0101101
+   0110111 -> 0101100
+   0111000 -> 0100100
+   0111001 -> 0100101
+   0111010 -> 0100111
+   0111011 -> 0100110
+   0111100 -> 0100010
+   0111101 -> 0100011
+   0111110 -> 0100001
+   0111111 -> 0100000
+   1000000 -> 1100000
+   1000001 -> 1100001
+   1000010 -> 1100011
+   1000011 -> 1100010
+   1000100 -> 1100110
+   1000101 -> 1100111
+   1000110 -> 1100101
+   1000111 -> 1100100
+   1001000 -> 1101100
+   1001001 -> 1101101
+   1001010 -> 1101111
+   1001011 -> 1101110
+   1001100 -> 1101010
+   1001101 -> 1101011
+   1001110 -> 1101001
+Encoding state machine r_wr_addr[2:0] (in view: work.C0_util_lat1_to_lat0_64s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_addr[2:0] (in view: work.C0_util_lat1_to_lat0_64s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[3:0] (in view: work.C0_rmw_Z41(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+
+Starting factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 234MB peak: 252MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 242MB peak: 252MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 243MB peak: 255MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 246MB peak: 255MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 246MB peak: 255MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 246MB peak: 255MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 246MB peak: 255MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 288MB peak: 288MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:16s		    -0.84ns		3626 /      3038
+   2		0h:00m:16s		    -0.84ns		3456 /      3038
+   3		0h:00m:16s		    -0.80ns		3456 /      3038
+Timing driven replication report
+Added 7 Registers via timing driven replication
+Added 10 LUTs via timing driven replication
+
+   4		0h:00m:17s		    -0.73ns		3466 /      3045
+   5		0h:00m:17s		    -0.56ns		3467 /      3045
+   6		0h:00m:17s		    -0.56ns		3470 /      3045
+
+
+   7		0h:00m:17s		    -0.56ns		3469 /      3045
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 289MB peak: 289MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 290MB peak: 291MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_0 with period 20.00ns 
+@N: MT615 |Found clock CCC_C0_0/CCC_C0_0/pll_inst_0/OUT0 with period 12.00ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT0 with period 1.50ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT1 with period 6.00ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT2 with period 1.50ns 
+@N: MT615 |Found clock DDR3_0_0/CCC_0/pll_inst_0/OUT3 with period 1.50ns 
+@W: MT420 |Found inferred clock COREDDR_TIP_INT_Z73|VCO_PHSEL_ROTATE_inferred_clock[0] with period 10.00ns. Please declare a user-defined clock on net DDR3_0_0.CCC_0.PHASE_ROTATE_0.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Oct 11 20:04:58 2022
+#
+
+
+Top view:               top
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Libero_Projects\PF_Mi_V_Tut\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.046
+
+                                                           Requested     Estimated     Requested     Estimated                Clock                          Clock                
+Starting Clock                                             Frequency     Frequency     Period        Period        Slack      Type                           Group                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CCC_C0_0/CCC_C0_0/pll_inst_0/OUT0                          83.3 MHz      NA            12.000        NA            NA         generated (from REF_CLK_0)     default_clkgroup     
+COREDDR_TIP_INT_Z73|VCO_PHSEL_ROTATE_inferred_clock[0]     100.0 MHz     NA            10.000        NA            NA         inferred                       Inferred_clkgroup_0_6
+DDR3_0_0/CCC_0/pll_inst_0/OUT0                             666.7 MHz     NA            1.500         NA            NA         generated (from REF_CLK_0)     default_clkgroup     
+DDR3_0_0/CCC_0/pll_inst_0/OUT1                             166.7 MHz     165.4 MHz     6.000         6.046         -0.046     generated (from REF_CLK_0)     default_clkgroup     
+DDR3_0_0/CCC_0/pll_inst_0/OUT2                             666.7 MHz     NA            1.500         NA            NA         generated (from REF_CLK_0)     default_clkgroup     
+DDR3_0_0/CCC_0/pll_inst_0/OUT3                             666.7 MHz     NA            1.500         NA            NA         generated (from REF_CLK_0)     default_clkgroup     
+REF_CLK_0                                                  50.0 MHz      NA            20.000        NA            NA         declared                       default_clkgroup     
+System                                                     100.0 MHz     NA            10.000        NA            NA         system                         system_clkgroup      
+==================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                        Ending                          |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR3_0_0/CCC_0/pll_inst_0/OUT1  System                          |  6.000       4.082   |  No paths    -      |  No paths    -      |  No paths    -    
+DDR3_0_0/CCC_0/pll_inst_0/OUT1  DDR3_0_0/CCC_0/pll_inst_0/OUT1  |  6.000       -0.046  |  No paths    -      |  No paths    -      |  No paths    -    
+=======================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: DDR3_0_0/CCC_0/pll_inst_0/OUT1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                                                                      Arrival           
+Instance                                 Reference                          Type     Pin     Net                                                       Time        Slack 
+                                         Clock                                                                                                                           
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In848Jqhewx1Epkh799G8JHLyI3              DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       thyjfGDyLLtFmh4z9yhK4dgqr1CKn3fv08f9nqeH0HIpL7EKEpch1     0.218       -0.046
+In848Jqhewx1Epkh799G8JHLzbJ              DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       thyjfGDyLLtFmh4z9yhK4dgqr1DtckGqLiAitijdqblvgbshj7tIH     0.218       0.000 
+b8Jlijed4Dtrv71hKegDAmtd69a9nfAemxn      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b8Jlijed4Dtrv71hKegDAmtd69a9nfAemxn                       0.201       0.038 
+In848Jqhewx1Epkh799G8JHLzhn              DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       thyjfGDyLLtFmh4z9yhK4dgqr1DDCE5mt5s3zanlfg00mqHp1dB8l     0.218       0.068 
+b8Jlijed4Dtrv71hKegDAmtd69a9nfAem23      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b8Jlijed4Dtrv71hKegDAmtd69a9nfAem23                       0.201       0.084 
+In848Jqhewx1Epkh799G8JHLzm3              DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       thyjfGDyLLtFmh4z9yhK4dgqr1Em1wuhEgbc4ErsGlF5s6uxIwhx1     0.218       0.098 
+jkrl16v9ushnd9a0v4GEgxhgL4Bfr02L96bJ     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       jkrl16v9ushnd9a0v4GEgxhgL4Bfr02L96bJ                      0.218       0.099 
+b8Jlijed4Dtrv71hKegDAmtd69a9nfAem7J      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b8Jlijed4Dtrv71hKegDAmtd69a9nfAem7J                       0.201       0.152 
+b09hvEKylKzJBLb2jeBDqf2IB                DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b09hvEKylKzJBLb2jeBDqf2IB                                 0.218       0.166 
+b8Jlijed4Dtrv71hKegDAmtd69a9nfAemDn      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      Q       b8Jlijed4Dtrv71hKegDAmtd69a9nfAemDn                       0.201       0.182 
+=========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                                                                      Required           
+Instance                          Reference                          Type     Pin     Net                                                       Time         Slack 
+                                  Clock                                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0uj58aBJn4L2pcfFGBrJ              DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       fxH8bmaHnLDGemDu2qx0wvAgCg4m3                             6.000        -0.046
+fxH8bmaHnLDGemDu47tg71qdHd6bJ     DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       bgIgkjEs5KtsIiDyE2jtccntjdKDlvsEbm5yI3                    6.000        -0.046
+eJBCJshfx0CIoDteFI3               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       cj2gjA8g0y7GHboF4IGwLkw0IbrmCc5KsAC1rtG2aqgrJ             6.000        -0.030
+bbxjslmif3KwGCtsFAm2moga9e23      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       vK6glCFsCknAJ72n6G9EBjc6xns4y2JFcJ0xtLts3C1JllmH6z3xn     6.000        -0.030
+eJBCJshfx0CIoDteFDn               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       cj2gjA8g0y7GHboF4IGwLkw0IbrmCemBw7ksyDhjAGjDn             6.000        -0.014
+bbxjslmif3KwGCtsFAm2moga9exn      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       vK6glCFsCknAJ72n6G9EBjc6xns4y2JFcJ0xtKhtKqeGLIEcFbphn     6.000        -0.014
+eJBCJshfx0CIoDteF7J               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       cj2gjA8g0y7GHboF4IGwLkw0IbrmCcdB2050DoIx596Dn             6.000        0.002 
+bbxjslmif3KwGCtsFAm2moga9erJ      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       vK6glCFsCknAJ72n6G9EBjc6xns4y2JFcJ0xtKDupKzyhzkIFunm3     6.000        0.002 
+eJBCJshfx0CIoDteF23               DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       cj2gjA8g0y7GHboF4IGwLkw0IbrmCc9h8Lwx2r72dxDDn             6.000        0.018 
+bbxjslmif3KwGCtsFAm2moga9em3      DDR3_0_0/CCC_0/pll_inst_0/OUT1     SLE      D       vK6glCFsCknAJ72n6G9EBjc6xns4y2JFcJ0xtLwBCd5IwpyIL967J     6.000        0.018 
+===================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.000
+
+    - Propagation time:                      6.046
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                25
+    Starting point:                          In848Jqhewx1Epkh799G8JHLyI3 / Q
+    Ending point:                            0uj58aBJn4L2pcfFGBrJ / D
+    The start point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+    The end   point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+In848Jqhewx1Epkh799G8JHLyI3                               SLE      Q        Out     0.218     0.218 r     -         
+thyjfGDyLLtFmh4z9yhK4dgqr1CKn3fv08f9nqeH0HIpL7EKEpch1     Net      -        -       0.948     -           2         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            CFG4     D        In      -         1.166 r     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            CFG4     Y        Out     0.212     1.378 f     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            Net      -        -       0.118     -           1         
+x4LIkHkonBEivDoKGqsz                                      CFG4     D        In      -         1.496 f     -         
+x4LIkHkonBEivDoKGqsz                                      CFG4     Y        Out     0.192     1.688 f     -         
+ekKz1843j                                                 Net      -        -       0.623     -           8         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                      CFG4     D        In      -         2.311 f     -         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                      CFG4     Y        Out     0.192     2.503 f     -         
+c4LImHl0z9Jj                                              Net      -        -       0.789     -           24        
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                          CFG2     A        In      -         3.291 f     -         
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                          CFG2     Y        Out     0.047     3.338 r     -         
+I2eoytqbubooBsxrc                                         Net      -        -       0.830     -           30        
+yuLcAKhDhn                                                CFG3     A        In      -         4.168 r     -         
+yuLcAKhDhn                                                CFG3     Y        Out     0.051     4.219 r     -         
+yuLcAKhDhn                                                Net      -        -       0.563     -           4         
+gm6nHI8Kb4laEtobknvkp2gfBmfFf6ugJaJrG7J                   ARI1     C        In      -         4.782 r     -         
+gm6nHI8Kb4laEtobknvkp2gfBmfFf6ugJaJrG7J                   ARI1     Y        Out     0.307     5.089 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2meD6a0IcLq7Dn                Net      -        -       0.118     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lnIoDJdmdxDm3                  ARI1     A        In      -         5.207 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lnIoDJdmdxDm3                  ARI1     FCO      Out     0.285     5.492 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmekJv9ocp7vm30wwFahn            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lophvm7quem23                  ARI1     FCI      In      -         5.492 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lophvm7quem23                  ARI1     FCO      Out     0.008     5.500 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmeledtsxhJddssltGBxn            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lolBzKinzboxn                  ARI1     FCI      In      -         5.500 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lolBzKinzboxn                  ARI1     FCO      Out     0.008     5.508 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelcG0r5Dc0vLh8BF27J            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lo0j6CkkohDrJ                  ARI1     FCI      In      -         5.508 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lo0j6CkkohDrJ                  ARI1     FCO      Out     0.008     5.516 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelhJ3e5AF2DaH5rzam3            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lnGd6z0rw5zm3                  ARI1     FCI      In      -         5.516 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lnGd6z0rw5zm3                  ARI1     FCO      Out     0.008     5.524 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmekI6feJF4by90ur8xxn            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lot3gJck7gchn                  ARI1     FCI      In      -         5.524 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lot3gJck7gchn                  ARI1     FCO      Out     0.008     5.532 r     -         
+l9gbedCcJtAABwLoeLs01DEp0Dmelf4vzxGCssg6887HbJ            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lo1rF8h7IBvDn                  ARI1     FCI      In      -         5.532 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lo1rF8h7IBvDn                  ARI1     FCO      Out     0.008     5.540 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelirqhBzCELBEqnAFrJ            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lomKqbgGJAFrJ                  ARI1     FCI      In      -         5.540 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lomKqbgGJAFrJ                  ARI1     FCO      Out     0.008     5.548 r     -         
+l9gbedCcJtAABwLoeLs01DEp0Dmeldox6dwBDnfjuKhD23            Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2m2dd02D5Axlm3                ARI1     FCI      In      -         5.548 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2m2dd02D5Axlm3                ARI1     FCO      Out     0.008     5.556 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1j51fLjmgBc4evDlKDn          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2kxB54bi3cHsrJ                ARI1     FCI      In      -         5.556 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2kxB54bi3cHsrJ                ARI1     FCO      Out     0.008     5.564 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0wvmrggErr21ewFDlm3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2k3qcceJCFDlrJ                ARI1     FCI      In      -         5.564 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2k3qcceJCFDlrJ                ARI1     FCO      Out     0.008     5.572 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0ysCy10ur2BvL8m1KI3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jApbhKlBJ1sxn                ARI1     FCI      In      -         5.572 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jApbhKlBJ1sxn                ARI1     FCO      Out     0.008     5.580 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0jLqC3zIF1meK0uxlrJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jysviLmmqg5bJ                ARI1     FCI      In      -         5.580 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jysviLmmqg5bJ                ARI1     FCO      Out     0.008     5.588 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0fCnr12qiE19iy8oJm3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nDFdjFh9phlxn                ARI1     FCI      In      -         5.588 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nDFdjFh9phlxn                ARI1     FCO      Out     0.008     5.596 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw145t4gh2mKExsebHLbJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nj1loczlGa87J                ARI1     FCI      In      -         5.596 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nj1loczlGa87J                ARI1     FCO      Out     0.008     5.604 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1uaFGChubF2s5ICm123          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nejBCr1l97phn                ARI1     FCI      In      -         5.604 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nejBCr1l97phn                ARI1     FCO      Out     0.008     5.612 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1sgwroakvsasyH6z3rJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2kxJn6feisyu23                ARI1     FCI      In      -         5.612 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2kxJn6feisyu23                ARI1     FCO      Out     0.008     5.620 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0wxIHgFeLqqefDgwcDn          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jL9snskyE4rbJ                ARI1     FCI      In      -         5.620 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jL9snskyE4rbJ                ARI1     FCO      Out     0.008     5.628 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0nLHGuxvuC4l99cyu23          Net      -        -       0.000     -           1         
+jnqAufnzc38obj4z9DD9534Ixn                                ARI1     FCI      In      -         5.628 r     -         
+jnqAufnzc38obj4z9DD9534Ixn                                ARI1     S        Out     0.300     5.928 r     -         
+fxH8bmaHnLDGemDu2qx0wvAgCg4m3                             Net      -        -       0.118     -           1         
+0uj58aBJn4L2pcfFGBrJ                                      SLE      D        In      -         6.046 r     -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 6.046 is 1.939(32.1%) logic and 4.107(67.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.000
+
+    - Propagation time:                      6.046
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                25
+    Starting point:                          In848Jqhewx1Epkh799G8JHLyI3 / Q
+    Ending point:                            fxH8bmaHnLDGemDu47tg71qdHd6bJ / D
+    The start point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+    The end   point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+In848Jqhewx1Epkh799G8JHLyI3                                  SLE      Q        Out     0.218     0.218 r     -         
+thyjfGDyLLtFmh4z9yhK4dgqr1CKn3fv08f9nqeH0HIpL7EKEpch1        Net      -        -       0.948     -           2         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                               CFG4     D        In      -         1.166 r     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                               CFG4     Y        Out     0.212     1.378 f     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                               Net      -        -       0.118     -           1         
+x4LIkHkonBEivDoKGqsz                                         CFG4     D        In      -         1.496 f     -         
+x4LIkHkonBEivDoKGqsz                                         CFG4     Y        Out     0.192     1.688 f     -         
+ekKz1843j                                                    Net      -        -       0.623     -           8         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                         CFG4     D        In      -         2.311 f     -         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                         CFG4     Y        Out     0.192     2.503 f     -         
+c4LImHl0z9Jj                                                 Net      -        -       0.789     -           24        
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                             CFG2     A        In      -         3.291 f     -         
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                             CFG2     Y        Out     0.047     3.338 r     -         
+I2eoytqbubooBsxrc                                            Net      -        -       0.830     -           30        
+yuLcAKhDhn                                                   CFG3     A        In      -         4.168 r     -         
+yuLcAKhDhn                                                   CFG3     Y        Out     0.051     4.219 r     -         
+yuLcAKhDhn                                                   Net      -        -       0.563     -           4         
+bo1qfBAkL8juehG2lk28KitkCGnJam6JDF2er011hL2dxDhn             ARI1     C        In      -         4.782 r     -         
+bo1qfBAkL8juehG2lk28KitkCGnJam6JDF2er011hL2dxDhn             ARI1     Y        Out     0.307     5.089 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y40A9oFkl0kiI3           Net      -        -       0.118     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3Ck6y8oBd6hn            ARI1     A        In      -         5.207 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3Ck6y8oBd6hn            ARI1     FCO      Out     0.285     5.492 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGpIsaf8Gts60vun97J      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3F5mDi1aI0Dn            ARI1     FCI      In      -         5.492 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3F5mDi1aI0Dn            ARI1     FCO      Out     0.008     5.500 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGrgipql22q9x3zborJ      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4oAHmgo7HKxn            ARI1     FCI      In      -         5.500 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4oAHmgo7HKxn            ARI1     FCO      Out     0.008     5.508 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGy0geIerLovCIFum7J      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4vrEFh9iDDrJ            ARI1     FCI      In      -         5.508 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4vrEFh9iDDrJ            ARI1     FCO      Out     0.008     5.516 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmG0Fu2Jf7F4m1cIjam3      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4wyhvia9GB7J            ARI1     FCI      In      -         5.516 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4wyhvia9GB7J            ARI1     FCO      Out     0.008     5.524 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmG1mxJusKj6Cowkkjm3      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3BieJvz78xxn            ARI1     FCI      In      -         5.524 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3BieJvz78xxn            ARI1     FCO      Out     0.008     5.532 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGp03zfs7ECI7sp96rJ      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4mxwsK6Dcx23            ARI1     FCI      In      -         5.532 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4mxwsK6Dcx23            ARI1     FCO      Out     0.008     5.540 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGx97wIvmGaFI4Bd6xn      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4z9CGEiKJAbJ            ARI1     FCI      In      -         5.540 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4z9CGEiKJAbJ            ARI1     FCO      Out     0.008     5.548 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmG2th5KoFIluBuilsm3      Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5tDE5Jyprza23           ARI1     FCI      In      -         5.548 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5tDE5Jyprza23           ARI1     FCO      Out     0.008     5.556 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru7JqD1ejpFzr1Gcwdehn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8fClDiCFEbHm3           ARI1     FCI      In      -         5.556 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8fClDiCFEbHm3           ARI1     FCO      Out     0.008     5.564 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8GLzCKJs14DdJ9vw4Dn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y9fvBmiGb6g4I3           ARI1     FCI      In      -         5.564 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y9fvBmiGb6g4I3           ARI1     FCO      Out     0.008     5.572 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru9l8EqsIgf4ADp4coJhn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y7s1I9Dplq9em3           ARI1     FCI      In      -         5.572 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y7s1I9Dplq9em3           ARI1     FCO      Out     0.008     5.580 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru843JIH1nmJb8dEpq8xn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8azoJzbA7zaDn           ARI1     FCI      In      -         5.580 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8azoJzbA7zaDn           ARI1     FCO      Out     0.008     5.588 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8Fg8qH0AwcHEHDCderJ     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y65xidmJnB6ghn           ARI1     FCI      In      -         5.588 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y65xidmJnB6ghn           ARI1     FCO      Out     0.008     5.596 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8sop3gpytbIkfBbpz7J     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y6Gy7jim0G3ibJ           ARI1     FCI      In      -         5.596 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y6Gy7jim0G3ibJ           ARI1     FCO      Out     0.008     5.604 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8winlpq2tvJ4a2toqI3     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5bFsuvir6g5hn           ARI1     FCI      In      -         5.604 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5bFsuvir6g5hn           ARI1     FCO      Out     0.008     5.612 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru7DbJH84jxGk9AKcoJrJ     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8L8uofhpJKrbJ           ARI1     FCI      In      -         5.612 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8L8uofhpJKrbJ           ARI1     FCO      Out     0.008     5.620 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru9j8gLAfw51jrF5xEu23     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y74894q3Kfw5m3           ARI1     FCI      In      -         5.620 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y74894q3Kfw5m3           ARI1     FCO      Out     0.008     5.628 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru88G3A5HBdjgdrLD4Jxn     Net      -        -       0.000     -           1         
+bI6wxk3hxJo8I0G6Ix1FgvE3sp8akoD8xhn                          ARI1     FCI      In      -         5.628 r     -         
+bI6wxk3hxJo8I0G6Ix1FgvE3sp8akoD8xhn                          ARI1     S        Out     0.300     5.928 r     -         
+bgIgkjEs5KtsIiDyE2jtccntjdKDlvsEbm5yI3                       Net      -        -       0.118     -           1         
+fxH8bmaHnLDGemDu47tg71qdHd6bJ                                SLE      D        In      -         6.046 r     -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 6.046 is 1.939(32.1%) logic and 4.107(67.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.000
+
+    - Propagation time:                      6.030
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.030
+
+    Number of logic level(s):                23
+    Starting point:                          In848Jqhewx1Epkh799G8JHLyI3 / Q
+    Ending point:                            0uj58aBJn4L2pcfFGBrJ / D
+    The start point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+    The end   point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+In848Jqhewx1Epkh799G8JHLyI3                               SLE      Q        Out     0.218     0.218 r     -         
+thyjfGDyLLtFmh4z9yhK4dgqr1CKn3fv08f9nqeH0HIpL7EKEpch1     Net      -        -       0.948     -           2         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            CFG4     D        In      -         1.166 r     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            CFG4     Y        Out     0.212     1.378 f     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            Net      -        -       0.118     -           1         
+x4LIkHkonBEivDoKGqsz                                      CFG4     D        In      -         1.496 f     -         
+x4LIkHkonBEivDoKGqsz                                      CFG4     Y        Out     0.192     1.688 f     -         
+ekKz1843j                                                 Net      -        -       0.623     -           8         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                      CFG4     D        In      -         2.311 f     -         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                      CFG4     Y        Out     0.192     2.503 f     -         
+c4LImHl0z9Jj                                              Net      -        -       0.789     -           24        
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                          CFG2     A        In      -         3.291 f     -         
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                          CFG2     Y        Out     0.047     3.338 r     -         
+I2eoytqbubooBsxrc                                         Net      -        -       0.830     -           30        
+yuLcAKhDm3                                                CFG3     A        In      -         4.168 r     -         
+yuLcAKhDm3                                                CFG3     Y        Out     0.051     4.219 r     -         
+yuLcAKhDm3                                                Net      -        -       0.563     -           4         
+7t2kko0vy7kAxwGCwD7hdga4C65lophvm7quem23                  ARI1     C        In      -         4.782 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lophvm7quem23                  ARI1     Y        Out     0.307     5.089 r     -         
+tCnhDGtkK4rcdlBCCtKoEKlcmmltg7F98jetcjKrorJ               Net      -        -       0.118     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lolBzKinzboxn                  ARI1     A        In      -         5.207 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lolBzKinzboxn                  ARI1     FCO      Out     0.285     5.492 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelcG0r5Dc0vLh8BF27J            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lo0j6CkkohDrJ                  ARI1     FCI      In      -         5.492 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lo0j6CkkohDrJ                  ARI1     FCO      Out     0.008     5.500 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelhJ3e5AF2DaH5rzam3            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lnGd6z0rw5zm3                  ARI1     FCI      In      -         5.500 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lnGd6z0rw5zm3                  ARI1     FCO      Out     0.008     5.508 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmekI6feJF4by90ur8xxn            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lot3gJck7gchn                  ARI1     FCI      In      -         5.508 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lot3gJck7gchn                  ARI1     FCO      Out     0.008     5.516 r     -         
+l9gbedCcJtAABwLoeLs01DEp0Dmelf4vzxGCssg6887HbJ            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lo1rF8h7IBvDn                  ARI1     FCI      In      -         5.516 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lo1rF8h7IBvDn                  ARI1     FCO      Out     0.008     5.524 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelirqhBzCELBEqnAFrJ            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lomKqbgGJAFrJ                  ARI1     FCI      In      -         5.524 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lomKqbgGJAFrJ                  ARI1     FCO      Out     0.008     5.532 r     -         
+l9gbedCcJtAABwLoeLs01DEp0Dmeldox6dwBDnfjuKhD23            Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2m2dd02D5Axlm3                ARI1     FCI      In      -         5.532 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2m2dd02D5Axlm3                ARI1     FCO      Out     0.008     5.540 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1j51fLjmgBc4evDlKDn          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2kxB54bi3cHsrJ                ARI1     FCI      In      -         5.540 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2kxB54bi3cHsrJ                ARI1     FCO      Out     0.008     5.548 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0wvmrggErr21ewFDlm3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2k3qcceJCFDlrJ                ARI1     FCI      In      -         5.548 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2k3qcceJCFDlrJ                ARI1     FCO      Out     0.008     5.556 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0ysCy10ur2BvL8m1KI3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jApbhKlBJ1sxn                ARI1     FCI      In      -         5.556 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jApbhKlBJ1sxn                ARI1     FCO      Out     0.008     5.564 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0jLqC3zIF1meK0uxlrJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jysviLmmqg5bJ                ARI1     FCI      In      -         5.564 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jysviLmmqg5bJ                ARI1     FCO      Out     0.008     5.572 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0fCnr12qiE19iy8oJm3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nDFdjFh9phlxn                ARI1     FCI      In      -         5.572 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nDFdjFh9phlxn                ARI1     FCO      Out     0.008     5.580 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw145t4gh2mKExsebHLbJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nj1loczlGa87J                ARI1     FCI      In      -         5.580 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nj1loczlGa87J                ARI1     FCO      Out     0.008     5.588 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1uaFGChubF2s5ICm123          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nejBCr1l97phn                ARI1     FCI      In      -         5.588 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nejBCr1l97phn                ARI1     FCO      Out     0.008     5.596 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1sgwroakvsasyH6z3rJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2kxJn6feisyu23                ARI1     FCI      In      -         5.596 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2kxJn6feisyu23                ARI1     FCO      Out     0.008     5.604 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0wxIHgFeLqqefDgwcDn          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jL9snskyE4rbJ                ARI1     FCI      In      -         5.604 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jL9snskyE4rbJ                ARI1     FCO      Out     0.008     5.612 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0nLHGuxvuC4l99cyu23          Net      -        -       0.000     -           1         
+jnqAufnzc38obj4z9DD9534Ixn                                ARI1     FCI      In      -         5.612 r     -         
+jnqAufnzc38obj4z9DD9534Ixn                                ARI1     S        Out     0.300     5.912 r     -         
+fxH8bmaHnLDGemDu2qx0wvAgCg4m3                             Net      -        -       0.118     -           1         
+0uj58aBJn4L2pcfFGBrJ                                      SLE      D        In      -         6.030 r     -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 6.030 is 1.923(31.9%) logic and 4.107(68.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.000
+
+    - Propagation time:                      6.030
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.030
+
+    Number of logic level(s):                23
+    Starting point:                          In848Jqhewx1Epkh799G8JHLyI3 / Q
+    Ending point:                            eJBCJshfx0CIoDteFI3 / D
+    The start point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+    The end   point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+In848Jqhewx1Epkh799G8JHLyI3                               SLE      Q        Out     0.218     0.218 r     -         
+thyjfGDyLLtFmh4z9yhK4dgqr1CKn3fv08f9nqeH0HIpL7EKEpch1     Net      -        -       0.948     -           2         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            CFG4     D        In      -         1.166 r     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            CFG4     Y        Out     0.212     1.378 f     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                            Net      -        -       0.118     -           1         
+x4LIkHkonBEivDoKGqsz                                      CFG4     D        In      -         1.496 f     -         
+x4LIkHkonBEivDoKGqsz                                      CFG4     Y        Out     0.192     1.688 f     -         
+ekKz1843j                                                 Net      -        -       0.623     -           8         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                      CFG4     D        In      -         2.311 f     -         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                      CFG4     Y        Out     0.192     2.503 f     -         
+c4LImHl0z9Jj                                              Net      -        -       0.789     -           24        
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                          CFG2     A        In      -         3.291 f     -         
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                          CFG2     Y        Out     0.047     3.338 r     -         
+I2eoytqbubooBsxrc                                         Net      -        -       0.830     -           30        
+yuLcAKhDhn                                                CFG3     A        In      -         4.168 r     -         
+yuLcAKhDhn                                                CFG3     Y        Out     0.051     4.219 r     -         
+yuLcAKhDhn                                                Net      -        -       0.563     -           4         
+gm6nHI8Kb4laEtobknvkp2gfBmfFf6ugJaJrG7J                   ARI1     C        In      -         4.782 r     -         
+gm6nHI8Kb4laEtobknvkp2gfBmfFf6ugJaJrG7J                   ARI1     Y        Out     0.307     5.089 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2meD6a0IcLq7Dn                Net      -        -       0.118     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lnIoDJdmdxDm3                  ARI1     A        In      -         5.207 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lnIoDJdmdxDm3                  ARI1     FCO      Out     0.285     5.492 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmekJv9ocp7vm30wwFahn            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lophvm7quem23                  ARI1     FCI      In      -         5.492 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lophvm7quem23                  ARI1     FCO      Out     0.008     5.500 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmeledtsxhJddssltGBxn            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lolBzKinzboxn                  ARI1     FCI      In      -         5.500 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lolBzKinzboxn                  ARI1     FCO      Out     0.008     5.508 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelcG0r5Dc0vLh8BF27J            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lo0j6CkkohDrJ                  ARI1     FCI      In      -         5.508 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lo0j6CkkohDrJ                  ARI1     FCO      Out     0.008     5.516 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelhJ3e5AF2DaH5rzam3            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lnGd6z0rw5zm3                  ARI1     FCI      In      -         5.516 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lnGd6z0rw5zm3                  ARI1     FCO      Out     0.008     5.524 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmekI6feJF4by90ur8xxn            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lot3gJck7gchn                  ARI1     FCI      In      -         5.524 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lot3gJck7gchn                  ARI1     FCO      Out     0.008     5.532 r     -         
+l9gbedCcJtAABwLoeLs01DEp0Dmelf4vzxGCssg6887HbJ            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lo1rF8h7IBvDn                  ARI1     FCI      In      -         5.532 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lo1rF8h7IBvDn                  ARI1     FCO      Out     0.008     5.540 r     -         
+l9gbedCcJtAABwLoeLs01DEp0DmelirqhBzCELBEqnAFrJ            Net      -        -       0.000     -           1         
+7t2kko0vy7kAxwGCwD7hdga4C65lomKqbgGJAFrJ                  ARI1     FCI      In      -         5.540 r     -         
+7t2kko0vy7kAxwGCwD7hdga4C65lomKqbgGJAFrJ                  ARI1     FCO      Out     0.008     5.548 r     -         
+l9gbedCcJtAABwLoeLs01DEp0Dmeldox6dwBDnfjuKhD23            Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2m2dd02D5Axlm3                ARI1     FCI      In      -         5.548 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2m2dd02D5Axlm3                ARI1     FCO      Out     0.008     5.556 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1j51fLjmgBc4evDlKDn          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2kxB54bi3cHsrJ                ARI1     FCI      In      -         5.556 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2kxB54bi3cHsrJ                ARI1     FCO      Out     0.008     5.564 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0wvmrggErr21ewFDlm3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2k3qcceJCFDlrJ                ARI1     FCI      In      -         5.564 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2k3qcceJCFDlrJ                ARI1     FCO      Out     0.008     5.572 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0ysCy10ur2BvL8m1KI3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jApbhKlBJ1sxn                ARI1     FCI      In      -         5.572 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jApbhKlBJ1sxn                ARI1     FCO      Out     0.008     5.580 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0jLqC3zIF1meK0uxlrJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2jysviLmmqg5bJ                ARI1     FCI      In      -         5.580 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2jysviLmmqg5bJ                ARI1     FCO      Out     0.008     5.588 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw0fCnr12qiE19iy8oJm3          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nDFdjFh9phlxn                ARI1     FCI      In      -         5.588 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nDFdjFh9phlxn                ARI1     FCO      Out     0.008     5.596 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw145t4gh2mKExsebHLbJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nj1loczlGa87J                ARI1     FCI      In      -         5.596 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nj1loczlGa87J                ARI1     FCO      Out     0.008     5.604 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1uaFGChubF2s5ICm123          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2nejBCr1l97phn                ARI1     FCI      In      -         5.604 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2nejBCr1l97phn                ARI1     FCO      Out     0.008     5.612 r     -         
+bo1qfBAkL8juehG2lk28JAuxcLbqw1sgwroakvsasyH6z3rJ          Net      -        -       0.000     -           1         
+d8iwwwJ3c97js3kenj96B66duoog2kxJn6feisyu23                ARI1     FCI      In      -         5.612 r     -         
+d8iwwwJ3c97js3kenj96B66duoog2kxJn6feisyu23                ARI1     S        Out     0.300     5.912 r     -         
+cj2gjA8g0y7GHboF4IGwLkw0IbrmCc5KsAC1rtG2aqgrJ             Net      -        -       0.118     -           1         
+eJBCJshfx0CIoDteFI3                                       SLE      D        In      -         6.030 r     -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 6.030 is 1.923(31.9%) logic and 4.107(68.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.000
+
+    - Propagation time:                      6.030
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.030
+
+    Number of logic level(s):                23
+    Starting point:                          In848Jqhewx1Epkh799G8JHLyI3 / Q
+    Ending point:                            bbxjslmif3KwGCtsFAm2moga9e23 / D
+    The start point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+    The end   point is clocked by            DDR3_0_0/CCC_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.000 period=6.000) on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+In848Jqhewx1Epkh799G8JHLyI3                                  SLE      Q        Out     0.218     0.218 r     -         
+thyjfGDyLLtFmh4z9yhK4dgqr1CKn3fv08f9nqeH0HIpL7EKEpch1        Net      -        -       0.948     -           2         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                               CFG4     D        In      -         1.166 r     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                               CFG4     Y        Out     0.212     1.378 f     -         
+0l6K5rKHpevec0BFIJAnfuK754hDhn                               Net      -        -       0.118     -           1         
+x4LIkHkonBEivDoKGqsz                                         CFG4     D        In      -         1.496 f     -         
+x4LIkHkonBEivDoKGqsz                                         CFG4     Y        Out     0.192     1.688 f     -         
+ekKz1843j                                                    Net      -        -       0.623     -           8         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                         CFG4     D        In      -         2.311 f     -         
+iFtFoHAhsFBAyBjlkKkEotEyjsFcgmrz0j2j                         CFG4     Y        Out     0.192     2.503 f     -         
+c4LImHl0z9Jj                                                 Net      -        -       0.789     -           24        
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                             CFG2     A        In      -         3.291 f     -         
+dmsBJiHj5tvEJjr5Jyis4F2j1edKC97c                             CFG2     Y        Out     0.047     3.338 r     -         
+I2eoytqbubooBsxrc                                            Net      -        -       0.830     -           30        
+yuLcAKhDhn                                                   CFG3     A        In      -         4.168 r     -         
+yuLcAKhDhn                                                   CFG3     Y        Out     0.051     4.219 r     -         
+yuLcAKhDhn                                                   Net      -        -       0.563     -           4         
+bo1qfBAkL8juehG2lk28KitkCGnJam6JDF2er011hL2dxDhn             ARI1     C        In      -         4.782 r     -         
+bo1qfBAkL8juehG2lk28KitkCGnJam6JDF2er011hL2dxDhn             ARI1     Y        Out     0.307     5.089 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y40A9oFkl0kiI3           Net      -        -       0.118     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3Ck6y8oBd6hn            ARI1     A        In      -         5.207 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3Ck6y8oBd6hn            ARI1     FCO      Out     0.285     5.492 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGpIsaf8Gts60vun97J      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3F5mDi1aI0Dn            ARI1     FCI      In      -         5.492 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3F5mDi1aI0Dn            ARI1     FCO      Out     0.008     5.500 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGrgipql22q9x3zborJ      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4oAHmgo7HKxn            ARI1     FCI      In      -         5.500 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4oAHmgo7HKxn            ARI1     FCO      Out     0.008     5.508 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGy0geIerLovCIFum7J      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4vrEFh9iDDrJ            ARI1     FCI      In      -         5.508 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4vrEFh9iDDrJ            ARI1     FCO      Out     0.008     5.516 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmG0Fu2Jf7F4m1cIjam3      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4wyhvia9GB7J            ARI1     FCI      In      -         5.516 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4wyhvia9GB7J            ARI1     FCO      Out     0.008     5.524 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmG1mxJusKj6Cowkkjm3      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3BieJvz78xxn            ARI1     FCI      In      -         5.524 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn3BieJvz78xxn            ARI1     FCO      Out     0.008     5.532 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGp03zfs7ECI7sp96rJ      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4mxwsK6Dcx23            ARI1     FCI      In      -         5.532 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4mxwsK6Dcx23            ARI1     FCO      Out     0.008     5.540 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmGx97wIvmGaFI4Bd6xn      Net      -        -       0.000     -           1         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4z9CGEiKJAbJ            ARI1     FCI      In      -         5.540 r     -         
+gJ7BKFrk4wslgkdg1EzkwmCz5r0qbt5Au3BDn4z9CGEiKJAbJ            ARI1     FCO      Out     0.008     5.548 r     -         
+cviHroLmAlCFvd9gELtLjwqonmhts9ku0L8JmG2th5KoFIluBuilsm3      Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5tDE5Jyprza23           ARI1     FCI      In      -         5.548 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5tDE5Jyprza23           ARI1     FCO      Out     0.008     5.556 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru7JqD1ejpFzr1Gcwdehn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8fClDiCFEbHm3           ARI1     FCI      In      -         5.556 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8fClDiCFEbHm3           ARI1     FCO      Out     0.008     5.564 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8GLzCKJs14DdJ9vw4Dn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y9fvBmiGb6g4I3           ARI1     FCI      In      -         5.564 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y9fvBmiGb6g4I3           ARI1     FCO      Out     0.008     5.572 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru9l8EqsIgf4ADp4coJhn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y7s1I9Dplq9em3           ARI1     FCI      In      -         5.572 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y7s1I9Dplq9em3           ARI1     FCO      Out     0.008     5.580 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru843JIH1nmJb8dEpq8xn     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8azoJzbA7zaDn           ARI1     FCI      In      -         5.580 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8azoJzbA7zaDn           ARI1     FCO      Out     0.008     5.588 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8Fg8qH0AwcHEHDCderJ     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y65xidmJnB6ghn           ARI1     FCI      In      -         5.588 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y65xidmJnB6ghn           ARI1     FCO      Out     0.008     5.596 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8sop3gpytbIkfBbpz7J     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y6Gy7jim0G3ibJ           ARI1     FCI      In      -         5.596 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y6Gy7jim0G3ibJ           ARI1     FCO      Out     0.008     5.604 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru8winlpq2tvJ4a2toqI3     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5bFsuvir6g5hn           ARI1     FCI      In      -         5.604 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y5bFsuvir6g5hn           ARI1     FCO      Out     0.008     5.612 r     -         
+naLxmpIeboLnatHu02G18xgIg6DxtHD35K0ru7DbJH84jxGk9AKcoJrJ     Net      -        -       0.000     -           1         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8L8uofhpJKrbJ           ARI1     FCI      In      -         5.612 r     -         
+BdAkzI1E8xrlrf69eygxCAnyDn2vxyFsnKF7y8L8uofhpJKrbJ           ARI1     S        Out     0.300     5.912 r     -         
+vK6glCFsCknAJ72n6G9EBjc6xns4y2JFcJ0xtLts3C1JllmH6z3xn        Net      -        -       0.118     -           1         
+bbxjslmif3KwGCtsFAm2moga9e23                                 SLE      D        In      -         6.030 r     -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 6.030 is 1.923(31.9%) logic and 4.107(68.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":13:0:13:0|Timing constraint (through [get_nets { Axi4Interconnect_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":14:0:14:0|Timing constraint (from [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.rdGrayCounter*.cntGray* }] to [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.rdPtr_s1* }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":15:0:15:0|Timing constraint (from [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.wrGrayCounter*.cntGray* }] to [get_cells { Axi4Interconnect_0.*.SlvConvertor_loop[*].slvcnv.slvCDC.genblk1*.wrPtr_s1* }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":16:0:16:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.ARST_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":17:0:17:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_*_CTRL.I_LANECTRL.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":18:0:18:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0.I_LANECTRL*.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":19:0:19:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.RX_SYNC_RST* }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":21:0:21:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_OUT_OF_RANGE }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":22:0:22:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":23:0:23:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":24:0:24:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":25:0:25:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":26:0:26:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_LOAD DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":27:0:27:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":28:0:28:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":29:0:29:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":30:0:30:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":31:0:31:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":32:0:32:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":33:0:33:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":34:0:34:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":35:0:35:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":36:0:36:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":37:0:37:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":38:0:38:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":39:0:39:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":40:0:40:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":41:0:41:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_LOAD DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":42:0:42:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":43:0:43:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":44:0:44:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":45:0:45:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":46:0:46:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":47:0:47:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":48:0:48:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":49:0:49:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":50:0:50:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":51:0:51:0|Timing constraint (to [get_pins { DDR3_0_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":52:0:52:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_*FEEDBACK*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":53:0:53:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.OB_DIFF_CK0.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":54:0:54:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.OB_A_12.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":55:0:55:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":56:0:56:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":57:0:57:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":58:0:58:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":59:0:59:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":60:0:60:0|Timing constraint (through [get_pins { DDR3_0_0.DDRPHY_BLK_0.*.I_BIBUF_DIFF_DQS_*.YN }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":61:0:61:0|Timing constraint (to [get_pins { DDR3_0_0.CCC_0.pll_inst_0.PHASE_OUT0_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":62:0:62:0|Timing constraint (to [get_pins { DDR3_0_0.CCC_0.pll_inst_0.PHASE_OUT2_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/libero_projects/pf_mi_v_tut/designer/top/synthesis.fdc":63:0:63:0|Timing constraint (to [get_pins { DDR3_0_0.CCC_0.pll_inst_0.PHASE_OUT3_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+None
+Writing compile point status file C:\Libero_Projects\PF_Mi_V_Tut\synthesis\DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                     Status       Reason                 
+-----------------------------------------------------------------------------
+DDR3_0_DDRCTRL_0_CoreDDRMemCtrlr_Z69     Remapped     Mapping options changed
+=============================================================================
+
+Process took 0h:00m:20s realtime, 0h:00m:20s cputime
+# Tue Oct 11 20:04:59 2022
+
+###########################################################]

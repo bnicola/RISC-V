@@ -1,0 +1,60 @@
+
+fsm_encoding {1799303293034} sequential
+
+fsm_state_encoding {1799303293034} BH_INIT {00}
+
+fsm_state_encoding {1799303293034} BH_READ {01}
+
+fsm_state_encoding {1799303293034} BH_WRITE {10}
+
+fsm_registers {1799303293034} {cpu_d_wr_rd_state[1]}  {cpu_d_wr_rd_state[0]} 
+
+fsm_encoding {179142882142885} onehot
+
+fsm_state_encoding {179142882142885} 001 {0000001}
+
+fsm_state_encoding {179142882142885} 010 {0000010}
+
+fsm_state_encoding {179142882142885} 011 {0000100}
+
+fsm_state_encoding {179142882142885} 100 {0001000}
+
+fsm_state_encoding {179142882142885} 101 {0010000}
+
+fsm_state_encoding {179142882142885} 110 {0100000}
+
+fsm_state_encoding {179142882142885} 111 {1000000}
+
+fsm_registers {179142882142885} {hipri_req_ptr[6]}  {hipri_req_ptr[5]}  {hipri_req_ptr[4]}  {hipri_req_ptr[3]}  {hipri_req_ptr[2]}  {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 
+
+fsm_encoding {179142882142887} sequential
+
+fsm_state_encoding {179142882142887} 01 {00}
+
+fsm_state_encoding {179142882142887} 10 {01}
+
+fsm_state_encoding {179142882142887} 11 {10}
+
+fsm_registers {179142882142887} {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 
+
+fsm_encoding {179118260118269} sequential
+
+fsm_state_encoding {179118260118269} IDLE {00}
+
+fsm_state_encoding {179118260118269} START {01}
+
+fsm_state_encoding {179118260118269} BUSTFR {10}
+
+fsm_state_encoding {179118260118269} RETN {11}
+
+fsm_registers {179118260118269} {sba_state[1]}  {sba_state[0]} 
+
+fsm_encoding {179142882142887} sequential
+
+fsm_state_encoding {179142882142887} 01 {00}
+
+fsm_state_encoding {179142882142887} 10 {01}
+
+fsm_state_encoding {179142882142887} 11 {10}
+
+fsm_registers {179142882142887} {hipri_req_ptr[1]}  {hipri_req_ptr[0]} 

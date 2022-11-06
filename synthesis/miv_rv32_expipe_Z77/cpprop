@@ -1,0 +1,9 @@
+n work miv_rv32_expipe_Z77 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Mapping options changed";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 40.3125;
+av .compile_point_starttime_stamp "Tue Oct 11 20:05:00 2022";
+av .compile_point_endtime_stamp "Tue Oct 11 20:05:40 2022";
+av .compile_point_realtime_used 40.481;
